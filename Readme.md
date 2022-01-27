@@ -139,7 +139,11 @@ Machine learning in video games
 [[wiki](https://en.wikipedia.org/wiki/Machine_learning_in_video_games)].
 
 AI and Gaming Research Summit 2021 
-[[video](https://www.youtube.com/watch?v=Ex3pJaunie0&list=PLD7HFcN7LXReQICXw1p2cV4fZHohdqX34)] - 12 videos.
+[[video](https://www.youtube.com/watch?v=Ex3pJaunie0&list=PLD7HFcN7LXReQICXw1p2cV4fZHohdqX34)] - 
+list of 12 videos.
+
+The Alchemy and Science of Machine Learning for Games (GDC 2019)
+[[video](https://www.youtube.com/watch?v=Eim_0jCQW_g)].
 
 Machine Learning for Game Developers (Google I/O'19) 
 [[video](https://www.youtube.com/watch?v=2h-Wg5FDbtU)].

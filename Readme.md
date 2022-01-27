@@ -25,6 +25,7 @@
             - [Prediction and smoothing](#prediction-and-smoothing)
             - [Matchmaking](#matchmaking)
         - [\(in-game\) AI](#in-game-ai)
+            - [FIFA](#fifa)
         - [Text](#text)
         - [Controls](#controls)
             - [Pose](#pose)
@@ -469,7 +470,21 @@ Globally Optimized Matchmaking in Online Games (KDD2021)
 Using Neural Networks to Control Agent Threat Response
 [[paper](https://www.gameaipro.com/GameAIPro/GameAIPro_Chapter30_Using_Neural_Networks_to_Control_Agent_Threat_Response.pdf)].
 
-Also see ```DeepMind and based on their research papers and repos``` [[local](#deepmind)].
+See ```DeepMind and based on their research papers and repos``` [[local](#deepmind)].
+
+#### FIFA
+
+DeepGamingAI_FIFA
+[[code](https://github.com/ChintanTrivedi/DeepGamingAI_FIFA)]
+[[blog](https://medium.com/@chintan.t93/building-a-deep-neural-network-to-play-fifa-18-dce54d45e675)]
+[[video](https://www.youtube.com/watch?v=vZFNzwv61Fk&t=59s)] - 
+deep learning based AI bot for playing the football simulation game.
+
+DeepGamingAI_FIFARL (2018)
+[[code](https://github.com/ChintanTrivedi/DeepGamingAI_FIFARL)]
+[[blog](https://towardsdatascience.com/using-deep-q-learning-in-fifa-18-to-perfect-the-art-of-free-kicks-f2e4e979ee66)]
+[[video](https://www.youtube.com/watch?v=MasxAN-xZIU)] - 
+using Reinforcement Learning to play FIFA.
 
 ### Text
 

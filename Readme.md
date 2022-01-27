@@ -98,6 +98,7 @@
     - [Detection and segmentation](#detection-and-segmentation)
         - [Detectron](#detectron)
     - [Tracking](#tracking)
+    - [Depth Estimation](#depth-estimation)
     - [Human](#human)
         - [Datasets](#datasets)
         - [Action](#action-1)
@@ -1972,6 +1973,52 @@ MMTracking
 [[code](https://github.com/open-mmlab/mmtracking)] - 
 open source video perception toolbox based on PyTorch.
 *TODO*: add pertinent models from MMTracking here explicitly.
+
+## Depth Estimation
+
+Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos (CVPR 2021)
+[[project](https://www.yasamin.page/hdnet_tiktok)]
+[[code](https://github.com/yasaminjafarian/HDNet_TikTok)]
+[[data](https://www.yasamin.page/hdnet_tiktok#h.jr9ifesshn7v)]
+[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Jafarian_Learning_High_Fidelity_Depths_of_Dressed_Humans_by_Watching_Social_CVPR_2021_paper.pdf)]
+[[supplement](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Jafarian_Learning_High_Fidelity_CVPR_2021_supplemental.zip)]
+[[arxiv](https://arxiv.org/abs/2103.03319)]
+[[video](https://www.youtube.com/watch?v=EFJ8WXdKghs)]
+[[video](https://www.youtube.com/watch?v=VYArtX_Ng_U)]. 
+See ```Clothes```[[local](#clothes)].
+
+Pano3D: A Holistic Benchmark and a Solid Baseline for 360o Depth Estimation (CVPR 2021)
+[[project](https://vcl3d.github.io/Pano3D)]
+[[code](https://github.com/VCL3D/Pano3D)]
+[[data](https://vcl3d.github.io/Pano3D/download)]
+[[arxiv](https://arxiv.org/abs/2109.02749)]. 
+*TODO*: see papers references on project site.
+
+3D Imaging with an RGB Camera and a single SPAD Transient (ECCV 2020)
+[[project](https://www.computationalimaging.org/publications/single_spad)]
+[[code](https://github.com/computational-imaging/single_spad_depth)]
+[[paper](https://www.computationalimaging.org/wp-content/uploads/2020/07/eccv2020.pdf)]
+[[supplement](https://drive.google.com/file/d/1O7LSTxbJW-AhgbgKeYwH5fVb0_eeqT00/view)]
+[[video](https://www.youtube.com/watch?v=j91H56iqxJs)].
+
+Spherical View Synthesis for Self-Supervised 360 Depth Estimation (3DV 2019)
+[[project](https://vcl3d.github.io/SphericalViewSynthesis)]
+[[code](https://github.com/VCL3D/SphericalViewSynthesis)]
+[[data](https://vcl3d.github.io/3D60)]
+[[models](https://github.com/VCL3D/SphericalViewSynthesis/releases)]
+[[arxiv](https://arxiv.org/abs/1909.08112)]
+[[video](https://www.youtube.com/watch?v=7sWUyoJNe-U)]. 
+See ```View Synthesis```[[local](#view-synthesis)].
+
+Unsupervised Monocular Depth Estimation with Left-Right Consistency (CVPR 2017)
+[[project](https://visual.cs.ucl.ac.uk/pubs/monoDepth)]
+[[code](https://github.com/mrharicot/monodepth)]
+[[models](http://visual.cs.ucl.ac.uk/pubs/monoDepth/models)]
+[[results](http://visual.cs.ucl.ac.uk/pubs/monoDepth/results)]
+[[arxiv](https://arxiv.org/abs/1609.03677)]
+[[video](https://www.youtube.com/watch?v=go3H2gU-Zck)]
+[[video](https://www.youtube.com/watch?v=jI1Qf7zMeIs)]
+[[video](https://www.youtube.com/watch?v=v8cpDQ22bSg)].
 ## Human
 
 ### Datasets

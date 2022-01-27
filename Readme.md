@@ -75,6 +75,7 @@
             - [Game Commenting](#game-commenting)
             - [Cources](#cources)
         - [Video: trailers/cinematics](#video-trailerscinematics)
+            - [Face Video](#face-video)
     - [Code](#code)
     - [Testing](#testing)
         - [Bots Playing Game](#bots-playing-game)
@@ -1621,7 +1622,62 @@ PyTorch for Audio + Music Processing course
 
 ### Video: trailers/cinematics
 
+World-Consistent Video-to-Video Synthesis (ECCV 2020)
+[[project](https://nvlabs.github.io/wc-vid2vid)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/wc_vid2vid/README.md)]
+[[data](https://www.cityscapes-dataset.com)]
+[[paper](https://nvlabs.github.io/wc-vid2vid/files/wc-vid2vid.pdf)]
+[[arxiv](https://arxiv.org/abs/2007.08509)]
+[[video](https://www.youtube.com/watch?v=b2P39sS2kKo)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+Scale-aware Insertion of Virtual Objects in Monocular Videos (ISMAR 2020)
+[[data](https://metric-tree.github.io)]
+[[arxiv](https://arxiv.org/abs/2012.02371)].
+
+A Comprehensive Tutorial on Video Modeling (CVPR 2020)
+[[project](https://bryanyzhu.github.io/videomodeling.github.io)].
+
+Few-shot Video-to-Video Synthesis (NeurIPS 2019)
+[[project](https://nvlabs.github.io/few-shot-vid2vid)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/fs_vid2vid/README.md)]
+[[code (Previous Implementation)](https://github.com/NVlabs/few-shot-vid2vid)]
+[[data](https://niessnerlab.org/projects/roessler2018faceforensics.html)]
+[[paper](https://nvlabs.github.io/few-shot-vid2vid/main.pdf)]
+[[arxiv](https://arxiv.org/abs/1910.12713)]
+[[video](https://www.youtube.com/watch?v=8AZBuyEuDqc)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+Compositional Video Prediction (ICCV 2019)
+[[project](https://judyye.github.io/CVP)]
+[[code](https://github.com/JudyYe/CVP)]
+[[arxiv](https://arxiv.org/abs/1908.08522)].
+
+Video-to-Video Synthesis (NeurIPS 2018)
+[[project](https://tcwang0509.github.io/vid2vid)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/vid2vid/README.md)]
+[[code (Previous Implementation)](https://github.com/NVIDIA/vid2vid)]
+[[data](https://www.cityscapes-dataset.com)]
+[[paper](https://tcwang0509.github.io/vid2vid/paper_vid2vid.pdf)]
+[[arxiv](https://arxiv.org/abs/1808.06601)]
+[[video](https://www.youtube.com/watch?v=5zlcXTCpQqM)]
+[[video](https://www.youtube.com/watch?v=GrP_aOSXt5U)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
 See ```Radiance Fields```[[local](#radiance-fields)].
+
+#### Face Video
+
+One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing (CVPR 2021)
+[[project](https://nvlabs.github.io/face-vid2vid)]
+[[code (unafficial)](https://github.com/zhanglonghao1992/One-Shot_Free-View_Neural_Talking_Head_Synthesis)]
+[[demo](http://imaginaire.cc/vid2vid-cameo)]
+[[paper](https://nvlabs.github.io/face-vid2vid/main.pdf)]
+[[arxiv](https://arxiv.org/abs/2011.15126)]
+[[video](https://www.youtube.com/watch?v=nLYg9Waw72U)]
+[[video](https://www.youtube.com/watch?v=smrcnZ5Eg4A)].
+
+See ```Face Image```[[local](#face-image)].
 
 ## Code
 

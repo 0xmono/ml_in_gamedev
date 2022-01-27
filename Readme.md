@@ -635,6 +635,9 @@ Globally Optimized Matchmaking in Online Games (KDD2021)
 
 ### (in-game) AI
 
+Applying Reinforcement Learning to Develop Game AI in NetEase Games (2020 GDC)
+[[video](https://www.youtube.com/watch?v=gXilr5C9MZs)].
+
 Using Neural Networks to Control Agent Threat Response
 [[paper](https://www.gameaipro.com/GameAIPro/GameAIPro_Chapter30_Using_Neural_Networks_to_Control_Agent_Threat_Response.pdf)].
 

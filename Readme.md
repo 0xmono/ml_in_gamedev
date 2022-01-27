@@ -10,9 +10,6 @@
     - [Game](#game)
         - [Render](#render)
             - [Super Resolution](#super-resolution)
-                - [Nvidia DLSS](#nvidia-dlss)
-                - [GPUOpen\(AMD\) FidelityFX](#gpuopenamd-fidelityfx)
-                - [Other](#other)
             - [Neural Rendering](#neural-rendering)
         - [Movement and animation](#movement-and-animation)
             - [Facial Animation](#facial-animation)
@@ -183,22 +180,18 @@ Machine learning functionality to run in production.
 
 Looks like super resolution will be a part of graphical API soon, but for now we have the following.
 
-##### Nvidia DLSS
+Nvidia DLSS
+[[project](https://www.nvidia.com/en-us/geforce/technologies/dlss)]
+[[code](https://github.com/NVIDIA/DLSS)]
+[[download page](https://developer.nvidia.com/dlss-getting-started)]
+[[Unreal Engine Plugin](https://developer.nvidia.com/dlss-getting-started)]
+[[Unity: Supported in Unity 2021.2](https://github.com/Unity-Technologies/Graphics/pull/3484)].
 
-* [[project](https://www.nvidia.com/en-us/geforce/technologies/dlss)].
-* [download page](https://developer.nvidia.com/dlss-getting-started).
-* DLSS SDK [[code](https://github.com/NVIDIA/DLSS)].
-* Unreal Engine: [plugin](https://developer.nvidia.com/dlss-getting-started).
-* Unity: Supported in Unity 2021.2 [[code](https://github.com/Unity-Technologies/Graphics/pull/3484)].
-
-##### GPUOpen(AMD) FidelityFX
-
-* [[project](https://www.amd.com/en/technologies/radeon-software-fidelityfx-super-resolution)].
-* Source code [[code](https://github.com/GPUOpen-Effects/FidelityFX-FSR)].
-* Unreal Engine: [plugin](https://gpuopen.com/learn/ue4-fsr).
-* Unity: Supported in Unity 2021.2 [[code](https://github.com/Unity-Technologies/Graphics/pull/5152)].
-
-##### Other
+GPUOpen(AMD) FidelityFX
+[[project](https://www.amd.com/en/technologies/radeon-software-fidelityfx-super-resolution)]
+[[code](https://github.com/GPUOpen-Effects/FidelityFX-FSR)]
+[[Unreal Engine Plugin](https://gpuopen.com/learn/ue4-fsr)]
+[[Unity: Supported in Unity 2021.2](https://github.com/Unity-Technologies/Graphics/pull/5152)].
 
 Intel Architecture Day 2021 Demo: Xe HPG – High Quality Super Sampling 
 [[video](https://www.youtube.com/watch?v=AH8g-wnc7Jo)] - 
@@ -211,6 +204,9 @@ not for realtime upscaling.
 Deep Learning Super Sampling using GANs 
 [[code](https://github.com/vee-upatising/DLSS)] - 
 not for realtime upscaling.
+
+Neural Enhance
+[[code](https://github.com/alexjc/neural-enhance)].
 
 #### Neural Rendering
 

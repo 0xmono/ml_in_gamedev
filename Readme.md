@@ -99,6 +99,7 @@
         - [Detectron](#detectron)
     - [Tracking](#tracking)
     - [Depth Estimation](#depth-estimation)
+    - [Action](#action)
     - [Human](#human)
         - [Datasets](#datasets)
         - [Action](#action-1)
@@ -2019,6 +2020,17 @@ Unsupervised Monocular Depth Estimation with Left-Right Consistency (CVPR 2017)
 [[video](https://www.youtube.com/watch?v=go3H2gU-Zck)]
 [[video](https://www.youtube.com/watch?v=jI1Qf7zMeIs)]
 [[video](https://www.youtube.com/watch?v=v8cpDQ22bSg)].
+
+## Action
+
+Where2Act: From Pixels to Actions for Articulated 3D Objects (ICCV 2021)
+[[project](https://cs.stanford.edu/~kaichun/where2act)]
+[[code](https://github.com/daerduoCarey/where2act)]
+[[arxiv](https://arxiv.org/abs/2101.02692)]
+[[slides](https://cs.stanford.edu/~kaichun/where2act/slides.pdf)]
+[[poster](https://cs.stanford.edu/~kaichun/where2act/poster.pdf)]
+[[video](https://www.youtube.com/watch?v=cdMSZru3Aa8)].
+
 ## Human
 
 ### Datasets

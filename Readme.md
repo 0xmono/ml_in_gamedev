@@ -53,8 +53,9 @@
                     - [Diffusion Models](#diffusion-models)
                     - [Other](#other-1)
                 - [Bitmaps](#bitmaps)
-            - [Models](#models)
+            - [3D Models](#3d-models)
                 - [Reconstruction From Images and Video](#reconstruction-from-images-and-video)
+                    - [Face Image](#face-image)
             - [Level](#level)
             - [Voxel](#voxel)
             - [Cards](#cards)
@@ -1089,9 +1090,18 @@ Addressing the Fundamental Tension of PCGML with Discriminative Learning
 [[arxiv](https://arxiv.org/abs/1809.04432)] - based on 
 ```WaveFunctionCollapse```[[local](#WaveFunctionCollapse)].
 
-#### Models
+#### 3D Models
+
+See ```3D Morphable Models```[[local](3DMM)].
 
 ##### Reconstruction From Images and Video
+
+See ```Person Shape Capture```[[local](#person-shape-capture)].
+
+Kimera
+[[code](https://github.com/MIT-SPARK/Kimera)] - 
+C++ library for real-time metric-semantic simultaneous localization and mapping, 
+which uses camera images and inertial data to build a semantically annotated 3D mesh of the environment.
 
 BANMo: Building Animatable 3D Neural Models from Many Casual Videos
 [[project](https://banmo-www.github.io)]
@@ -1107,6 +1117,37 @@ ViSER: Video-Specific Surface Embeddings for Articulated 3D Shape Reconstruction
 [[code](https://github.com/gengshan-y/viser-release)]
 [[paper](https://www.contrib.andrew.cmu.edu/~gengshay/ViSER.pdf)].
 
+NeRS: Neural Reflectance Surfaces for Sparse-View 3D Reconstruction in the Wild (NeurIPS 2021)
+[[project](https://jasonyzhang.com/ners)]
+[[code](https://github.com/jasonyzhang/ners)]
+[[colab](https://colab.research.google.com/drive/1L4Sl_9Osc2J_I5YpkteLrb-VbnwdDokd?usp=sharing)]
+[[arxiv](https://arxiv.org/abs/2110.07604)]
+[[video](https://www.youtube.com/watch?v=zVyaw_sn1xM)].
+
+Panoptic 3D Scene Reconstruction From a Single RGB Image (NeurIPS 2021)
+[[project](https://manuel-dahnert.com/research/panoptic-reconstruction)]
+[[code](https://github.com/xheon/panoptic-reconstruction)]
+[[paper](https://proceedings.neurips.cc/paper/2021/file/46031b3d04dc90994ca317a7c55c4289-Paper.pdf)]
+[[arxiv](https://arxiv.org/abs/2111.02444)]
+[[video](https://www.youtube.com/watch?v=YVxRNHmd5SA)].
+
+Ray-ONet: Efficient 3D Reconstruction From A Single RGB Image (BMVC 2021)
+[[project](https://rayonet.active.vision)]
+[[code](https://github.com/ActiveVisionLab/ray-onet)]
+[[paper](https://www.bmvc2021-virtualconference.com/assets/papers/0698.pdf)]
+[[arxiv](https://arxiv.org/abs/2107.01899)].
+
+Pixel-Perfect Structure-from-Motion with Featuremetric Refinement (ICCV 2021)
+[[project](https://psarlin.com/pixsfm)]
+[[code](https://github.com/cvg/pixel-perfect-sfm)]
+[[arxiv](https://arxiv.org/abs/2108.08291)]
+[[supplement](https://psarlin.com/pixsfm/assets/pixsfm_slides.pdf)]
+[[supplement](https://psarlin.com/pixsfm/assets/pixsfm_poster.pdf)]
+[[video](https://www.youtube.com/watch?v=2HuCMuraFk0)].
+
+Graduate School – Deep Learning on Meshes – Rana Hanocka (SGP 2021)
+[[video](https://www.youtube.com/watch?v=qVctAmMGlQQ)].
+
 Learning monocular 3D reconstruction of articulated categories from motion (CVPR 2021)
 [[project](https://fkokkinos.github.io/video_3d_reconstruction)]
 [[code](https://github.com/fkokkinos/acfm_video_3d_reconstruction)]
@@ -1120,6 +1161,18 @@ LASR: Learning Articulated Shape Reconstruction from a Monocular Video (CVPR 202
 [[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_LASR_Learning_Articulated_Shape_Reconstruction_From_a_Monocular_Video_CVPR_2021_paper.pdf)]
 [[blog](https://www.louisbouchard.ai/3d-reconstruction-from-videos)]
 [[video](https://www.youtube.com/watch?v=Y6KGQeUKYAI)].
+
+Unsupervised Learning of 3D Object Categories from Videos in the Wild (CVPR 2021)
+[[project](https://henzler.github.io/publication/unsupervised_videos)]
+[[arxiv](https://arxiv.org/abs/2103.16552)]
+[[supplement](https://henzler.github.io/publication/unsupervised_videos/UnsupervisedVideosPoster.pdf)]
+[[video](https://www.youtube.com/watch?v=910z84dldEU)].
+
+Shelf-supervised Mesh Prediction in the wild (CVPR 2021)
+[[project](https://judyye.github.io/ShSMesh)]
+[[code](https://github.com/JudyYe/shelf-sup-mesh)]
+[[arxiv](https://arxiv.org/abs/2102.06195)]
+[[video](https://www.youtube.com/watch?v=OAiFEAuzPZk)].
 
 Learning 3D Registration and Reconstruction from the Visual World
 [[paper](https://chenhsuanlin.bitbucket.io/thesis.pdf)]
@@ -1157,11 +1210,40 @@ Articulation-Aware Canonical Surface Mapping (CVPR 2020)
 [[arxiv](https://arxiv.org/abs/2004.00614)]
 [[video](https://www.youtube.com/watch?v=hECMGIGGybA)].
 
+Non-line-of-sight Surface Reconstruction Using the Directional Light-cone Transform (CVPR 2020)
+[[project](https://www.computationalimaging.org/publications/nlos_dlct)]
+[[code](https://github.com/computational-imaging/nlos-dlct)]
+[[paper](https://www.computationalimaging.org/wp-content/uploads/2020/03/dlct_cvpr2020.pdf)]
+[[supplement](https://www.computationalimaging.org/wp-content/uploads/2020/03/dlct_supplement_cvpr2020.pdf)]
+[[video](https://www.youtube.com/watch?v=9ezA5ycHXDA)].
+
+DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction NeurIPS 2019)
+[[code](https://github.com/Xharlie/DISN)]
+[[code](https://github.com/laughtervv/DISN)]
+[[data](https://github.com/Xharlie/ShapenetRender_more_variation)]
+[[arxiv](https://arxiv.org/abs/1905.10711)].
+
 Canonical Surface Mapping via Geometric Cycle Consistency (ICCV 2019)
 [[project](https://nileshkulkarni.github.io/csm)]
 [[code](https://github.com/nileshkulkarni/csm)]
 [[arxiv](https://arxiv.org/abs/1907.10043)]
 [[video](https://www.youtube.com/watch?v=93M3ou4mg-w)].
+
+Escaping Plato's Cave: 3D Shape From Adversarial Rendering (ICCV2019)
+[[project](https://henzler.github.io/publication/platonicgan)]
+[[project](https://geometry.cs.ucl.ac.uk/projects/2019/platonicgan)]
+[[code](https://github.com/henzler/platonicgan)]
+[[paper](https://geometry.cs.ucl.ac.uk/projects/2019/platonicgan/paper_docs/platonicgan.pdf)]
+[[arxiv](https://arxiv.org/abs/1811.11606)]
+[[supplement](https://henzler.github.io/publication/platonicgan/poster.pdf)].
+
+Learning to Reconstruct Shapes from Unseen Classes (NeurIPS 2018)
+[[project](http://genre.csail.mit.edu)]
+[[code](https://github.com/xiumingzhang/GenRe-ShapeHD)]
+[[paper](http://genre.csail.mit.edu/papers/genre_nips.pdf)]
+[[arxiv](https://arxiv.org/abs/1812.11166)]
+[[supplement](http://genre.csail.mit.edu/papers/genre_nips_supp.pdf)]
+[[video](https://www.youtube.com/watch?v=DA9KmoFGIXw)].
 
 Learning Category-Specific Mesh Reconstruction from Image Collections (ECCV, 2018)
 [[project](https://akanazawa.github.io/cmr)]
@@ -1169,10 +1251,73 @@ Learning Category-Specific Mesh Reconstruction from Image Collections (ECCV, 201
 [[arxiv](https://arxiv.org/abs/1803.07549)]
 [[video](https://www.youtube.com/watch?v=cYHQKtBLI3Q)].
 
+Learning Shape Priors for Single-View 3D Completion and Reconstruction (ECCV 2018)
+[[project](http://shapehd.csail.mit.edu)]
+[[code](https://github.com/xiumingzhang/GenRe-ShapeHD)]
+[[paper](http://shapehd.csail.mit.edu/papers/shapehd_eccv.pdf)]
+[[arxiv](https://arxiv.org/abs/1809.05068)].
+
+MarrNet: 3D Shape Reconstruction via 2.5D Sketches (NIPS 2017)
+[[project](http://marrnet.csail.mit.edu)]
+[[code](https://github.com/jiajunwu/marrnet)]
+[[paper](https://jiajunwu.com/papers/marrnet_nips.pdf)]
+[[arxiv](https://arxiv.org/abs/1711.03129)]
+[[supplement](http://marrnet.csail.mit.edu/talks/marrnet_poster_nips.pdf)]
+[[video](https://www.youtube.com/watch?v=wTnVVcPU0go)].
+
+Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling (NIPS 2016)
+[[project](http://3dgan.csail.mit.edu)]
+[[code](https://github.com/zck119/3dgan-release)]
+[[code (PyTorch)](https://github.com/black0017/3D-GAN-pytorch)]
+[[code (Keras)](https://github.com/enochkan/3dgan-keras)]
+[[data](http://3dgan.csail.mit.edu/data/IKEA_imgs_shapes.zip)]
+[[paper](http://3dgan.csail.mit.edu/papers/3dgan_nips.pdf)]
+[[arxiv](https://arxiv.org/abs/1610.07584)]
+[[supplement](http://3dgan.csail.mit.edu/talks/3dgan_poster_nips.pdf)]
+[[video](https://www.youtube.com/watch?v=mfx7uAkUtCI)].
+
+Single Image 3D Interpreter Network (ECCV 2016), 
+3D Interpreter Networks for Viewer-Centered Wireframe Modeling (IJCV 2018)
+[[project](http://3dinterpreter.csail.mit.edu)]
+[[code](https://github.com/jiajunwu/3dinn)]
+[[paper (ECCV 2016)](http://3dinterpreter.csail.mit.edu/papers/3dinn_eccv.pdf)]
+[[paper (IJCV 2018)](http://3dinterpreter.csail.mit.edu/papers/3dinn_ijcv.pdf)]
+[[paper (ECCV 2016)](https://arxiv.org/abs/1604.08685)]
+[[paper (IJCV 2018)](https://arxiv.org/abs/1804.00782)]
+[[video (ECCV 2016)](https://videolectures.net/eccv2016_wu_single_image)].
+
 Distinguished AI Lecture Series \| Humans, hands, and horses
 [[video](https://www.youtube.com/watch?v=0kNFXL37xO0)].
 
-Also see ```Radiance Fields```[[local](#radiance-fields)].
+CVPR2021 3D Scene Understanding Workshop
+[[video](https://www.youtube.com/playlist?list=PL6QXpwvKhQIrSklNsQJqicjtxiOs6_NpY)] - 
+list of 9 videos.
+
+CVPR2020 3D Scene Understanding Workshop: Zoom Recording
+[[video](https://www.youtube.com/playlist?list=PL6QXpwvKhQIodh0xusfVnUPkBYq0AJ4O_)]
+[[video (invited speakers)](https://www.youtube.com/playlist?list=PL6QXpwvKhQIoYOLLv_zSbl9pJOlIM4RIp)]
+[[video (invited papers)](https://www.youtube.com/playlist?list=PL6QXpwvKhQIp6i8wsmrTL8tSl1QcvQIeT)].
+
+CVPR 2019 Oral Session 2-1B: 3D Single View & RGBD
+[[vide](https://www.youtube.com/watch?v=ko6kNZ9DuAk)].
+
+Tutorial : 3D Deep Learning (CVPR 2017)
+[[video](https://www.youtube.com/watch?v=8CenT_4HWyY)].
+
+See ```Radiance Fields```[[local](#radiance-fields)].
+
+###### Face Image
+
+MeInGame: Create a Game Character Face from a Single Portrait
+[[code](https://github.com/FuxiCV/MeInGame)]
+[[data](https://drive.google.com/file/d/1tSBHEQ06XjY1yFMe9EIkFz-euU1EurXv/view)]
+[[arxiv](https://arxiv.org/abs/2102.02371)]
+[[video](https://www.youtube.com/watch?v=597cvKOegfE)].
+
+Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set
+[[code](https://github.com/microsoft/Deep3DFaceReconstruction)]
+[[code (PyTorch)](https://github.com/sicxu/Deep3DFaceRecon_pytorch)]
+[[arxiv](https://arxiv.org/abs/1903.08527)].
 
 #### Level
 

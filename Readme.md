@@ -618,6 +618,10 @@ See ```Language Models``` [[local](#language-models)].
 
 #### Matchmaking
 
+The Wanderings of Odysseus in 3D Scenes (2021)
+[[project](https://yz-cnsdqz.github.io/eigenmotion/GAMMA)]
+[[arxiv](https://arxiv.org/abs/2112.09251)].
+
 Machine Learning for Optimal Matchmaking (GDC 2020)
 [[video](https://www.youtube.com/watch?v=JG155gDdhrE)], 
 similar talk Machine learning for optimal matchmaking (Game Stack Live) [[video](https://www.youtube.com/watch?v=JG155gDdhrE)].

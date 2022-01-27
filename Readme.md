@@ -11,9 +11,11 @@
         - [Render](#render)
             - [Super Resolution](#super-resolution)
             - [Neural Rendering](#neural-rendering)
-        - [Movement and animation](#movement-and-animation)
+        - [Gameplay](#gameplay)
+            - [Character](#character)
+                - [Character Movement and Animation](#character-movement-and-animation)
             - [Facial Animation](#facial-animation)
-            - [Ubisoft papers on movement and animations](#ubisoft-papers-on-movement-and-animations)
+            - [Ubisoft projects on movement and animations](#ubisoft-projects-on-movement-and-animations)
         - [Physics](#physics)
             - [Physics-based Simulation Group in TUM](#physics-based-simulation-group-in-tum)
                 - [Physics-based Deep Learning Book](#physics-based-deep-learning-book)
@@ -263,11 +265,35 @@ See ```View Synthesis```[[local](#view-synthesis)].
 
 See ```Radiance Fields```[[local](#radiance-fields)].
 
+### Gameplay
+
+#### Character
+
+Talking To AI-Generated People \| Fake Faces, Script, Voice and Lip-Sync Animation
+[[code](https://github.com/ChintanTrivedi/ask-fake-ai-karen)]
+[[blog](https://medium.com/swlh/how-to-create-fake-talking-head-videos-with-deep-learning-code-tutorial-f9cfc0c19ab5)]
+[[video](https://www.youtube.com/watch?v=OCdikmAoLKA)]
+[[video](https://www.youtube.com/watch?v=zA8Qs8G5Vnc)].
+
+##### Character Movement and Animation
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 AI4Animation [[project](https://github.com/sebastianstarke/AI4Animation)] - 
 [Sebastian Starke's](https://github.com/sebastianstarke) 
-collection of deep learning  opportunities for character animation and control.
+collection of deep learning  opportunities for character animation and control. 
+Some projects from this collection are listed below.
+*TODO*: add papers from here.
 
-Daniel Holden's cite [[blog](https://theorangeduck.com)] - with numerous publications and articles about machine learning and animation.
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+Daniel Holden's cite [[project](https://theorangeduck.com)] - 
+with numerous publications and articles about machine learning and animation.
+*TODO*: add papers from here.
+
+Learning Time-Critical Responses for Interactive Character Control
+[[project](https://mrl.snu.ac.kr/research/ProjectAgile/Agile.html)]
+[[code](https://github.com/snumrl/TimeCriticalResponse)]
+[[paper](http://mrl.snu.ac.kr/research/ProjectAgile/AGILE_2021_SIGGRAPH_author.pdf)]
+[[video](https://www.youtube.com/watch?v=rQKuvxg5ZHc)].
 
 Transition Motion Tensor: A Data-Driven Approach for Versatile and Controllable Agents in Physically Simulated Environments (SIGGRAPH 2021) 
 [[project](https://inventec-ai-center.github.io/projects/TMT_2021/index.html)]
@@ -282,7 +308,7 @@ AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control (SIG
 [[arxiv](https://arxiv.org/abs/2104.02180)]
 [[video](https://www.youtube.com/watch?v=wySUxZN_KbM)]
 [[video](https://www.youtube.com/watch?v=O6fBSMxThR4)].
-Shares code with ```DeepMimic``` [[local](#DeepMimic)].
+Shares code with ```DeepMimic```[[local](#DeepMimic)].
 
 A Scalable Approach to Control Diverse Behaviors for Physically Simulated Characters (SIGGRAPH 2020)
 [[code](https://github.com/facebookresearch/ScaDiver)]
@@ -295,6 +321,17 @@ CARL: Controllable Agent with Reinforcement Learning for Quadruped Locomotion (S
 [[code](https://github.com/inventec-ai-center/carl-siggraph2020)]
 [[arxiv](https://arxiv.org/abs/2005.03288)]
 [[video](https://www.youtube.com/watch?v=t9CdF_Pl19Q)].
+
+Character Controllers using Motion VAEs (SIGGRAPH 2020)
+[[project](https://hungyuling.com/projects/MVAE)]
+[[demo](https://github.com/electronicarts/character-motion-vaes)]
+[[demo](https://github.com/belinghy/MotionVAEs-WebGL)]
+[[paper](https://hungyuling.com/static/projects/MVAE/2020-MVAE.pdf)]
+[[arxiv](https://arxiv.org/abs/2103.14274)].
+
+MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies (NeurIPS 2019)
+[[project](https://xbpeng.github.io/projects/MCP)]
+[[arxiv](https://arxiv.org/abs/1905.09808)].
 
 Learning Predict-and-Simulate Policies From Unorganized Human Motion Data (SIGGRAPH Asia 2019)
 [[project](https://mrl.snu.ac.kr/publications/ProjectICC/ICC.html)]
@@ -309,54 +346,154 @@ DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character
 [[arxiv](https://arxiv.org/abs/1804.02717)].
 Shares code with ```AMP: Adversarial Motion Priors``` [[local](#AdversarialMotionPriors)].
 
-Deep Learning For Animation & Content Creation (GDC 2018) [[video](https://www.youtube.com/watch?v=nFk_-alrrxQ)].
+Mode-Adaptive Neural Networks for Quadruped Motion Control (SIGGRAPH 2018)
+[[project](https://www.starke-consult.de/portfolio/assets/content/work/11/page.html)]
+[[code (AI4Animation)](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2018)]
+[[code](https://github.com/cghezhang/MANN)]
+[[data](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2018/MotionCapture.zip)]
+[[demo (windows)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2018/Demo_Windows.zip)]
+[[demo (linux)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2018/Demo_Linux.zip)]
+[[demo (mac)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2018/Demo_Mac.zip)]
+[[paper](https://homepages.inf.ed.ac.uk/tkomura/dog.pdf)]
+[[paper](https://github.com/sebastianstarke/AI4Animation//blob/master/Media/SIGGRAPH_2018/Paper.pdf)]
+[[video](https://www.youtube.com/watch?v=uFJvRYtjQ4c)]
+[[video](https://www.youtube.com/watch?v=55MBKxIHHYA)].
 
-MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies
-[[project](https://xbpeng.github.io/projects/MCP)]
-[[arxiv](https://arxiv.org/abs/1905.09808)].
+Deep Learning of Biomimetic Sensorimotor Control for Biomechanical Human Animation (SIGGRAPH 2018)
+[[project](https://tomerwei.github.io/Deep%20Learning%20of%20Biomimetic%20Sensorimotor%20Control%20for%20Biomechanical%20Human%20Animation.html)]
+[[paper](https://tomerwei.github.io/pdfs/nakada2018.pdf)]
+[[video](https://www.youtube.com/watch?v=oh2ExRftTIc)].
+
+Deep Learning For Animation & Content Creation (GDC 2018)
+[[video](https://www.youtube.com/watch?v=nFk_-alrrxQ)].
+
+Phase-Functioned Neural Networks for Character Control (SIGGRAPH 2017)
+[[project](https://theorangeduck.com/page/phase-functioned-neural-networks-character-control)]
+[[code](https://github.com/sreyafrancis/PFNN)]
+[[code (AI4Animation)](https://github.com/sebastianstarke/AI4Animation/blob/master/AI4Animation/SIGGRAPH_2017)]
+[[code (+ data, zip array)](http://theorangeduck.com/media/uploads/other_stuff/pfnn.zip)]
+[[demo](http://theorangeduck.com/media/uploads/other_stuff/pfnn_demo.zip)]
+[[demo (windows)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2017/Demo_Windows.zip)]
+[[demo (linux)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2017/Demo_Linux.zip)]
+[[demo (mac)](http://www.starke-consult.de/AI4Animation/SIGGRAPH_2017/Demo_Mac.zip)]
+[[paper](https://theorangeduck.com/media/uploads/other_stuff/phasefunction.pdf)]
+[[video](https://www.youtube.com/watch?v=Ul0Gilv5wvY)]
+[[video (GDC 2018)](https://www.youtube.com/watch?v=o-QLSjSSyVk)].
+
+DeepLoco: Dynamic Locomotion Skills Using Hierarchical Deep Reinforcement Learning (SIGGRAPH 2017)
+[[project](https://www.cs.ubc.ca/~van/papers/2017-TOG-deepLoco/index.html)]
+[[project](https://xbpeng.github.io/projects/DeepLoco/index.html)]
+[[code](https://github.com/xbpeng/DeepLoco)]
+[[paper](https://www.cs.ubc.ca/~van/papers/2017-TOG-deepLoco/2017-TOG-deepLoco.pdf)]
+[[supplement](https://www.cs.ubc.ca/~van/papers/2017-TOG-deepLoco/2017-TOG-deepLoco-supp.pdf)]
+[[video](https://www.youtube.com/watch?v=G4lT9CLyCNw)]
+[[video](https://www.youtube.com/watch?v=hd1yvLWm6oA)]
+[[video](https://www.youtube.com/watch?v=x-HrYko_MRU)].
+
+Emergence of Locomotion Behaviours in Rich Environments (2017)
+[[arxiv](https://arxiv.org/abs/1707.02286)]
+[[blog](https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments)]
+[[video](https://www.youtube.com/watch?v=hx_bgoTF7bs)].
+
+Learning human behaviors from motion capture by adversarial imitation (2017)
+[[data](http://mocap.cs.cmu.edu/)]
+[[arxiv](https://arxiv.org/abs/1707.02201)]
+[[blog](https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments)]
+[[video](https://www.youtube.com/watch?v=YsxN3uRBupc)].
+
+Robust Imitation of Diverse Behaviors (2017)
+[[arxiv](https://arxiv.org/pdf/1707.02747.pdf)]
+[[blog](https://deepmind.com/blog/article/producing-flexible-behaviours-simulated-environments)]
+[[video](https://www.youtube.com/watch?v=NaohsyUxpxw)]
+[[video](https://www.youtube.com/watch?v=VBrIll0B24o)].
+
+Terrain-Adaptive Locomotion Skills Using Deep Reinforcement Learning (SIGGRAPH 2016)
+[[project](https://www.cs.ubc.ca/~van/papers/2016-TOG-deepRL/index.html)]
+[[code](https://github.com/xbpeng/DeepTerrainRL)]
+[[paper](https://www.cs.ubc.ca/~van/papers/2016-TOG-deepRL/2016-TOG-deepRL.pdf)]
+[[video](https://www.youtube.com/watch?v=KPfzRSBzNX4)]
+[[video](https://www.youtube.com/watch?v=A0BmHoujP9k)].
 
 Guided Learning of Control Graphs for Physics-Based Characters (SIGGRAPH 2016)
 [[project](https://www.cs.ubc.ca/~van/papers/2016-TOG-controlGraphs/index.html)]
 [[paper](https://www.cs.ubc.ca/~van/papers/2016-TOG-controlGraphs/2016-TOG-controlGraphs.pdf)].
 
+Flexible Muscle-Based Locomotion for Bipedal Creatures (SIGGRAPH Asia 2013)
+[[project](https://www.goatstream.com/research/papers/SA2013)]
+[[paper](https://www.goatstream.com/research/papers/SA2013/SA2013.pdf)]
+[[video](https://www.youtube.com/watch?v=pgaEE27nsQw)].
+
+See ```Motion```[[local](#motion)].
+
 #### Facial Animation
 
-Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion
-[[paper](https://research.nvidia.com/publication/2017-07_Audio-Driven-Facial-Animation)]
-[[code (unafficial)](https://github.com/leventt/surat)].
+The Eyes Have It: An Integrated Eye and Face Model for Photorealistic Facial Animation (2020)
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3386569.3392493)]
+[[blog](https://research.facebook.com/publications/the-eyes-have-it-an-integrated-eye-and-face-model-for-photorealistic-facial-animation)]
+[[video](https://www.youtube.com/watch?v=E3spq4pS2Y4)].
 
-Audio- and Gaze-driven Facial Animation of Codec Avatars
+Audio- and Gaze-driven Facial Animation of Codec Avatars (2020)
+[[project](https://research.facebook.com/videos/audio-and-gaze-driven-facial-animation-of-codec-avatars)]
+[[paper](Audio- and Gaze-driven Facial Animation of Codec Avatars)]
 [[arxiv](https://arxiv.org/abs/2008.05023)]
+[[blog](https://medium.com/deepgamingai/realistic-facial-animations-of-3d-avatars-driven-by-audio-and-gaze-9be2102e24d)]
 [[video](https://www.youtube.com/watch?v=1nZjW_xoCDQ)].
 
-NVIDIA Omniverse Audio2Face App [[soft](https://www.nvidia.com/en-us/omniverse/apps/audio2face)].
+VisemeNet: Audio-Driven Animator-Centric Speech Animation
+[[project](https://people.umass.edu/~yangzhou/visemenet)]
+[[code](https://github.com/yzhou359/VisemeNet_tensorflow)]
+[[paper](https://people.umass.edu/~yangzhou/visemenet/visemenet.pdf)]
+[[arxiv](https://arxiv.org/abs/1805.09488)]
+[[video](https://www.youtube.com/watch?v=kk2EnyMD3mo)].
+
+Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion (SIGGRAPH 2017)
+[[paper](https://research.nvidia.com/publication/2017-07_Audio-Driven-Facial-Animation)]
+[[code (unafficial)](https://github.com/leventt/surat)]
+[[video](https://www.youtube.com/watch?v=lDzrfdpGqw4)].
+
+NVIDIA Omniverse Audio2Face App
+[[soft](https://www.nvidia.com/en-us/omniverse/apps/audio2face)].
 
 Speech2Face
 [[code](https://github.com/saiteja-talluri/Speech2Face)]
 [[arxiv](https://arxiv.org/abs/1905.09773)].
 
-#### Ubisoft papers on movement and animations
-
-Learned Motion Matching (SIGGRAPH 2020)
-[[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2020/07/09154101/Learned_Motion_Matching.pdf)]
-[[blog](https://montreal.ubisoft.com/en/introducing-learned-motion-matching)]
-[[video](https://www.youtube.com/watch?v=16CHDQK4W5k)].
+#### Ubisoft projects on movement and animations
 
 SuperTrack: Motion Tracking for Physically Simulated Characters using Supervised Learning (SIGGRAPH Asia 2021)
 [[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2021/11/24183638/SuperTrack.pdf)]
 [[blog](https://montreal.ubisoft.com/en/supertrack-motion-tracking-for-physically-simulated-characters-using-supervised-learning)]
 [[video](https://www.youtube.com/watch?v=8sMjfGkQ4bw)].
 
+Learned Motion Matching (SIGGRAPH 2020)
+[[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2020/07/09154101/Learned_Motion_Matching.pdf)]
+[[blog](https://montreal.ubisoft.com/en/introducing-learned-motion-matching)]
+[[video](https://www.youtube.com/watch?v=16CHDQK4W5k)].
+
 Robust Motion In-betweening (SIGGRAPH 2020)
-[[dataset](https://github.com/ubisoft/ubisoft-laforge-animation-dataset)]
+[[data](https://github.com/ubisoft/ubisoft-laforge-animation-dataset)]
 [[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2020/07/09155337/RobustMotionInbetweening.pdf)]
 [[blog](https://montreal.ubisoft.com/en/automatic-in-betweening-for-faster-animation-authoring)]
 [[video](https://www.youtube.com/watch?v=fTV7sXqO6ig)].
+
+Machine Learning Summit: Ragdoll Motion Matching (GDC 2020)
+[[project](https://www.gdcvault.com/play/1026712/Machine-Learning-Summit-Ragdoll-Motion)]
+[[video](https://www.youtube.com/watch?v=JZKaqQKcAnw)]
+[[video](https://www.youtube.com/watch?v=lN9pXZzR3Ys)]. 
+About motion matching itself
+[[supplement](https://www.gdcvault.com/play/1023115/Animation-Bootcamp-Motion-Matching-The)]
+[[video](https://www.youtube.com/watch?v=JZKaqQKcAnw)]
+[[video](https://www.youtube.com/watch?v=KSTn3ePDt50)]
+[[video](https://www.youtube.com/watch?v=z_wpgHFSWss)].
 
 DReCon: Data-Driven responsive Control of Physics-Based Characters (SIGGRAPH Asia 2019)
 [[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2019/11/13214229/DReCon.pdf)]
 [[blog](https://montreal.ubisoft.com/en/drecon-data-driven-responsive-control-of-physics-based-characters)]
 [[video](https://www.youtube.com/watch?v=tsdzwmEGl2o)].
+
+Robust Solving of Optical Motion Capture Data by Denoising
+[[paper](https://montreal.ubisoft.com/wp-content/uploads/2018/05/neuraltracker.pdf)]
+[[blog](https://montreal.ubisoft.com/en/robust-solving-of-optical-motion-capture-data-by-denoising)].
 
 ### Physics
 

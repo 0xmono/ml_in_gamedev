@@ -1901,10 +1901,11 @@ Scaling Language Models: Methods, Analysis & Insights from Training Gopher
 Google GLaM Vs DeepMind Gopher: Who Wins The Large Language Model Race
 [[blog](https://analyticsindiamag.com/google-glam-vs-deepmind-gopher-who-wins-the-large-language-model-race)].
 
-Also see ```Hugging Face Transformers```[[local](#hugging-face-transformers)].
+See ```Hugging Face Transformers```[[local](#hugging-face-transformers)].
 
 ## Hugging Face Transformers
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 Transformers
 [[project](https://huggingface.co/transformers)]
 [[code](https://github.com/huggingface/transformers)] - 
@@ -1915,6 +1916,7 @@ Hugging Face Course [[course](https://huggingface.co/course)].
 
 *TODO*: add projects.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 speech-to-text topic on github
 [[code](https://github.com/topics/speech-to-text)] - 
 a lot of good projects.

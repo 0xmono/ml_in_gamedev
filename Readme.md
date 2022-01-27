@@ -497,33 +497,48 @@ Robust Solving of Optical Motion Capture Data by Denoising
 
 ### Physics
 
-Learning to Simulate Complex Physics with Graph Networks (ICML 2020)
-[[project](https://sites.google.com/view/learning-to-simulate)]
-[[code](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate)]
-[[arxiv](https://arxiv.org/abs/2002.09405)]
-[[supplement](https://icml.cc/virtual/2020/poster/6849)].
-
-Subspace Neural Physics: Fast Data-Driven Interactive Simulation (GDC 2020)
-[[paper](https://theorangeduck.com/media/uploads/other_stuff/deep-cloth-paper.pdf)]
-[[blog](https://theorangeduck.com/page/subspace-neural-physics-fast-data-driven-interactive-simulation)]
-[[blog](https://theorangeduck.com/page/machine-learning-kolmogorov-complexity-squishy-bunnies)]
-[[video](https://www.youtube.com/watch?v=yjEvV86byxg)]
-[[video (GDC talk)](https://www.youtube.com/watch?v=sUb0W5_waRI)].
-
 SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning (ICRA 2021)
 [[code](https://github.com/jyf588/SimGAN)]
 [[arxiv](https://arxiv.org/abs/2101.06005)]
 [[blog](https://ai.googleblog.com/2021/06/learning-accurate-physics-simulator-via.html)]
 [[video](https://www.youtube.com/watch?v=McKOGllO7nc)].
 
-[Jie Tan's Homepage](https://www.jie-tan.net/publication.html) - ML applied to robots movement, but looks like can be used in game development too.
+Subspace Neural Physics: Fast Data-Driven Interactive Simulation (GDC 2020)
+[[paper](https://theorangeduck.com/media/uploads/other_stuff/deep-cloth-paper.pdf)]
+[[blog](https://theorangeduck.com/page/subspace-neural-physics-fast-data-driven-interactive-simulation)]
+[[blog](https://theorangeduck.com/page/machine-learning-kolmogorov-complexity-squishy-bunnies)]
+[[blog](https://montreal.ubisoft.com/en/ubisoft-la-forge-produces-a-data-driven-physics-simulation-based-on-machine-learning)]
+[[video](https://www.youtube.com/watch?v=yjEvV86byxg)]
+[[video (GDC talk)](https://www.youtube.com/watch?v=sUb0W5_waRI)].
+
+Learning to Simulate Complex Physics with Graph Networks (ICML 2020)
+[[project](https://sites.google.com/view/learning-to-simulate)]
+[[code](https://github.com/deepmind/deepmind-research/tree/master/learning_to_simulate)]
+[[arxiv](https://arxiv.org/abs/2002.09405)]
+[[supplement](https://icml.cc/virtual/2020/poster/6849)].
+
+Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects (CVPR 2020)
+[[project](https://ehsanik.github.io/forcecvpr2020)]
+[[code](https://github.com/ehsanik/touchTorch)]
+[[arxiv](https://arxiv.org/abs/2003.12045)]
+[[slides](https://github.com/ehsanik/forcecvpr2020/blob/master/img/3095-talk.pdf)]
+[[video](https://ehsanik.github.io/forcecvpr2020/#slide_video)]
+[[video](https://www.youtube.com/watch?v=dx3_nXcOqV0)].
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+[Jie Tan's Homepage](https://www.jie-tan.net/publication.html) - 
+ML applied to robots movement, but looks like can be used in game development too.
+
+See ```Physics```[[local](#physics-environments)].
 
 #### Physics-based Simulation Group in TUM
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 [Physics-based Simulation Group](https://ge.in.tum.de) in 
 [Technical University of Munich](https://www.tum.de/en) - 
 has multiple publications, see their cite and links below.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 Physics-Based Deep Learning
 [[project](https://github.com/thunil/Physics-Based-Deep-Learning)] - 
 github pahe with ```A LOT``` of links to papers!
@@ -587,6 +602,9 @@ Here's how we're using AI to help detect misinformation
 Harmful content can evolve quickly. Our new AI system adapts to tackle it
 [[blog](https://about.fb.com/news/2021/12/metas-new-ai-system-tackles-harmful-content)]
 [[blog](https://ai.facebook.com/blog/harmful-content-can-evolve-quickly-our-new-ai-system-adapts-to-tackle-it)].
+
+Robocalypse Now: Using Deep Learning to Combat Cheating in Counter-Strike: Global Offensive (GDC 2018)
+[[video](https://www.youtube.com/watch?v=kTiP0zKF9bc)].
 
 See ```Language Models``` [[local](#language-models)].
 

@@ -122,6 +122,7 @@
             - [Motion Manifold](#motion-manifold)
         - [Human Synthesys](#human-synthesys)
             - [Head](#head)
+    - [View Synthesis](#view-synthesis)
     - [Radiance Fields](#radiance-fields)
     - [Siren](#siren)
     - [Tools](#tools)
@@ -2473,6 +2474,51 @@ CoMA: Generating 3D faces using Convolutional Mesh Autoencoders ((ECCV) 2018)
 [[code](https://ps.is.mpg.de/uploads_file/attachment/attachment/439/1285.pdf)]
 [[code](https://arxiv.org/abs/1807.10267)]
 [[code](https://ps.is.mpg.de/uploads_file/attachment/attachment/440/1285-supp.pdf)].
+
+## View Synthesis
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+New-View-Synthesis
+[[project](https://github.com/visonpon/New-View-Synthesis)].
+*TODO*: add papers from here.
+
+Deep Image Spatial Transformation for Person Image Generation (CVPR 2020)
+[[project]https://renyurui.github.io/GFLA-web)]
+[[code](https://github.com/RenYurui/Global-Flow-Local-Attention)]
+[[arxiv](https://arxiv.org/abs/2003.00696)]
+[[video](https://www.youtube.com/watch?v=Ju0hBzCwsyU)].
+
+Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera (CVPR 2020)
+[[project](https://www-users.cse.umn.edu/~jsyoon/dynamic_synth)]
+[[project](https://research.nvidia.com/publication/2020-06_Dynamic-Scene-View)]
+[[arxiv](https://arxiv.org/abs/2004.01294)]
+[[video](https://www.youtube.com/watch?v=S8_0V3fZIes)]
+[[video](https://www.youtube.com/watch?v=kRKeoPkpPXM)].
+
+Soft 3D Reconstruction for View Synthesis (SIGGRAPH Asia 2017)
+[[project](https://ericpenner.github.io/soft3d)]
+[[paper](https://ericpenner.github.io/soft3d/Soft_3D_Reconstruction.pdf)]
+[[video](https://www.youtube.com/watch?v=szJBJ8oWrXI)].
+
+Transformation-Grounded Image Generation Network for Novel 3D View Synthesis (CVPR 2017)
+[[paroject](https://www.cs.unc.edu/~eunbyung/tvsn)]
+[[code](https://github.com/silverbottlep/tvsn)]
+[[paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Park_Transformation-Grounded_Image_Generation_CVPR_2017_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/1703.02921)].
+
+Multi-Viewpoint-Image-generation
+[[code](https://github.com/Chinmay26/Multi-Viewpoint-Image-generation)].
+
+View Synthesis by Appearance Flow (ECCV 2016)
+[[code](https://github.com/tinghuiz/appearance-flow)]
+[[arxiv](https://arxiv.org/abs/1605.03557)].
+
+[CVPR 2020] Novel View Synthesis Tutorial
+[[project](https://nvlabs.github.io/nvs-tutorial-cvpr2020)]
+[[video](https://www.youtube.com/watch?v=OEUHalxanuc)].
+
+See ```Radiance Fields```[[local](#radiance-fields)].
+
 ## Radiance Fields
 
 BARF: Bundle-Adjusting Neural Radiance Fields (ICCV 2021)

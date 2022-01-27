@@ -77,6 +77,9 @@
         - [Video: trailers/cinematics](#video-trailerscinematics)
             - [Face Video](#face-video)
     - [Code](#code)
+        - [Code Generation](#code-generation)
+        - [Finding Bugs](#finding-bugs)
+            - [Ubisof](#ubisof)
     - [Testing](#testing)
         - [Bots Playing Game](#bots-playing-game)
         - [Graphics](#graphics)
@@ -1681,7 +1684,7 @@ See ```Face Image```[[local](#face-image)].
 
 ## Code
 
-*Possible*: scripts generation from description (scripting language-dependent).
+### Code Generation
 
 OpenAI Codex
 [[code](https://github.com/openai/human-eval)]
@@ -1690,7 +1693,24 @@ OpenAI Codex
 [[video](https://www.youtube.com/watch?v=1hJdBNYTNmQ)] - 
 model that powers ```GitHub Copilot```[[soft](https://copilot.github.com)].
 
-Also see ```Language Models```[[local](#language-models)].
+See ```Language Models```[[local](#language-models)].
+
+### Finding Bugs
+
+#### Ubisof
+
+CLEVER: Combining Code Metrics with Clone Detection for Just-In-Time Fault Prevention and Resolution in Large Industrial Projects
+[[project](https://montreal.ubisoft.com/en/clever-combining-code-metrics-with-clone-detection-for-just-in-time-fault-prevention-and-resolution-in-large-industrial-projects-2)]
+[[project](https://montreal.ubisoft.com/en/ubisoft-la-forge-presents-the-commit-assistant)]
+[[paper](https://static-wordpress.akamaized.net/montreal.ubisoft.com/wp-content/uploads/2018/05/03173315/ICSE-CE-MSR-165.pdf)]
+[[paper](https://montreal.ubisoft.com/wp-content/uploads/2018/03/clever-commit-msr18.pdf)]
+[[blog](https://news.ubisoft.com/en-us/article/4tdnCF5t0JOxTMYLVfnvvf/ubisoft-and-mozilla-partner-to-develop-ai-coding-tools)]
+[[blog](https://blog.mozilla.org/futurereleases/2019/02/12/making-the-building-of-firefox-faster-for-you-with-clever-commit-from-ubisoft)]
+[[video](https://www.youtube.com/watch?v=I5C4FUvDyCc)].
+
+Better C++ using Machine Learning on Large Projects
+[[supplement](https://github.com/CppCon/CppCon2018/blob/master/Presentations/better_cpp_using_machine_learning_on_large_projects/better_cpp_using_machine_learning_on_large_projects__nicolas_fleury_mathieu_nayrolles__cppcon_2018.pdf)]
+[[video](https://www.youtube.com/watch?v=QDvic0QNtOY)].
 
 ## Testing
 

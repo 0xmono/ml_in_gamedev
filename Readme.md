@@ -211,6 +211,7 @@ Neural Enhance
 
 #### Neural Rendering
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 Awesome neural rendering
 [[project](https://github.com/weihaox/awesome-neural-rendering)] - 
 github repo with collection of resources on neural rendering.
@@ -219,14 +220,16 @@ GANcraft: Unsupervised 3D Neural Rendering of Minecraft Worlds (ICCV 2021)
 [[project](https://nvlabs.github.io/GANcraft)]
 [[code](https://github.com/NVlabs/imaginaire/blob/master/projects/gancraft/README.md)]
 [[arxiv](https://arxiv.org/abs/2104.07659)]
+[[blog](https://developer.nvidia.com/blog/gancraft-turning-gamers-into-3d-artists)]
 [[video](https://www.youtube.com/watch?v=1Hky092CGFQ)]
 [[video](https://www.youtube.com/watch?v=5K-AgDmCtt0)] - 
-uses ```Imaginaire (pytorch library that contains optimized implementation of several image and video synthesis methods developed at NVIDIA)```
-[[code](https://github.com/NVlabs/imaginaire)].
+part of ```Imaginaire```[[local](#Imaginaire)].
+Made with help of ```Mineways```[[project](https://www.realtimerendering.com/erich/minecraft/public/mineways)].
 
 Neural 3D Mesh Renderer (CVPR 2018)
 [[project](https://hiroharu-kato.com/publication/neural_renderer)]
 [[code](https://github.com/hiroharu-kato/neural_renderer)]
+[[code](https://github.com/daniilidis-group/neural_renderer)]
 [[arxiv](https://arxiv.org/abs/1711.07566)]
 [[video](https://www.youtube.com/watch?v=vziVsrCaMHY)].
 
@@ -250,9 +253,15 @@ Consists of two videos:
 MIT 6.S191 (2020): Neural Rendering [[video](https://www.youtube.com/watch?v=BCZ56MU-KhQ)] - single lecture from MIT `Introduction to
 Deep Learning` course.
 
-Also see ```Radiance Fields```[[local](#radiance-fields)].
+Matthias Niessner - Why Neural Rendering is Super Cool!
+[[video](https://www.youtube.com/watch?v=-KGZmzP4P1I)].
 
-### Movement and animation
+ADL4CV - Neural rendering
+[[video](https://www.youtube.com/watch?v=yh4BHFGUx70)].
+
+See ```View Synthesis```[[local](#view-synthesis)].
+
+See ```Radiance Fields```[[local](#radiance-fields)].
 
 AI4Animation [[project](https://github.com/sebastianstarke/AI4Animation)] - 
 [Sebastian Starke's](https://github.com/sebastianstarke) 

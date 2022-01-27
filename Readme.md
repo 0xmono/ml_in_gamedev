@@ -100,17 +100,26 @@
 This is a list of some existing and (mostly) possible applications of machine learning in game development: 
 reseach projects, free/propriatory software, youtube videos and other.
 
-It is just a (relatively) structured compilation of notes and not pretends to be precise and comprehensive information source on the topic.
+It is just a (relatively) structured compilation of notes and not pretends to be precise and comprehensive information source on the topic. 
+The goal is to have single-document list of short references to projects, videos, articles, books and other applications of ML in gamedev.
 
 If you found an error or have something to add - feel free to create a pull request or open an issue.
 
 <details>
-<summary>Typical names for web links in this document</summary>
+<summary>Some designations in this document</summary>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/> - 
+this image will be added to show that some project is a container of multiple references to another projects/software/dataset/books and so on. 
+Usually it is a page on github, similar to this document, to some extent. 
+See the [full image](https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg).
+
+Typical names for web links in this document:
 
 - <a name="project_link"></a> [[project](#project_link)] = main page of (reseach) project
 - <a name="code_link"></a> [[code](#code_link)] = link to code, usually on [github](https://github.com)
 - <a name="colab_link"></a> [[colab](#colab_link)] = link to [colab](https://colab.research.google.com)
-- <a name="dataset_link"></a> [[dataset](#dataset_link)] = link to dataset
+- <a name="data_link"></a> [[data](#data_link)] = link to dataset or another data
+- <a name="demo_link"></a> [[demo](#demo_link)] = link to work example of project/software
 - <a name="paper_link"></a> [[paper](#paper_link)] = link to pdf paper itself or web page with link to it
 - <a name="arxiv_link"></a> [[arxiv](#arxiv_link)] = link to publication page on [arxiv.org](https://arxiv.org)
 - <a name="supplement_link"></a> [[supplement](#supplement_link)] = link to some (usually) conference-specific project page, containing supplementary material

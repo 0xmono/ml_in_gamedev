@@ -97,6 +97,7 @@
     - [Classification](#classification)
     - [Detection and segmentation](#detection-and-segmentation)
         - [Detectron](#detectron)
+    - [Tracking](#tracking)
     - [Human](#human)
         - [Datasets](#datasets)
         - [Action](#action-1)
@@ -1965,6 +1966,12 @@ Projects that are built on detectron2 [[code](https://github.com/facebookresearc
 
 Previous version of Detectron [[code](https://github.com/facebookresearch/Detectron)].
 
+## Tracking
+
+MMTracking
+[[code](https://github.com/open-mmlab/mmtracking)] - 
+open source video perception toolbox based on PyTorch.
+*TODO*: add pertinent models from MMTracking here explicitly.
 ## Human
 
 ### Datasets

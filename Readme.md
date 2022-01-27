@@ -56,6 +56,7 @@
             - [3D Models](#3d-models)
                 - [Reconstruction From Images and Video](#reconstruction-from-images-and-video)
                     - [Face Image](#face-image)
+            - [Shape](#shape)
             - [Level](#level)
             - [Voxel](#voxel)
             - [Cards](#cards)
@@ -1318,6 +1319,23 @@ Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Ima
 [[code](https://github.com/microsoft/Deep3DFaceReconstruction)]
 [[code (PyTorch)](https://github.com/sicxu/Deep3DFaceRecon_pytorch)]
 [[arxiv](https://arxiv.org/abs/1903.08527)].
+
+#### Shape
+
+Superquadrics Revisited: Learning 3D Shape Parsing beyond Cuboids (CVPR 2019)
+[[project](https://superquadrics.com)]
+[[project](https://avg.is.mpg.de/publications/liao2018cvpr)]
+[[code](https://github.com/paschalidoud/superquadric_parsing)]
+[[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Paschalidou_Superquadrics_Revisited_Learning_3D_Shape_Parsing_Beyond_Cuboids_CVPR_2019_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/1904.09970)]
+[[blog](https://autonomousvision.github.io/superquadrics-revisited)]
+[[video](https://www.youtube.com/watch?v=eaZHYOsv9Lw)].
+
+Learning Shape Abstractions by Assembling Volumetric Primitives (CVPR 2017)
+[[project](https://shubhtuls.github.io/volumetricPrimitives)]
+[[code](https://github.com/shubhtuls/volumetricPrimitives)]
+[[code (PyTorch)](https://github.com/nileshkulkarni/volumetricPrimitivesPytorch)]
+[[arxiv](https://arxiv.org/abs/1612.00404)].
 
 #### Level
 

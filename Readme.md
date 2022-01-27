@@ -1782,6 +1782,14 @@ See ```DeepMind```[[local](#deepmind)].
 
 ### Graphics
 
+Back to the Feature: Learning Robust Camera Localization from Pixels to Pose (CVPR 2021)
+[[project](https://psarlin.com/pixloc)]
+[[code](https://github.com/cvg/pixloc)]
+[[arxiv](https://arxiv.org/abs/2103.09213)]
+[[slides](https://psarlin.com/pixloc/assets/pixloc_slides.pdf)]
+[[video](https://www.youtube.com/watch?v=vPkXhKQn2oI)] - 
+possible usage is to test scene rendering with comparision to reference images.
+
 Graphical Glitch Detection in Video Games Using CNNs
 [[paper](https://media.contentapi.ea.com/content/dam/ea/seed/presentations/garcialing2020-graphical-glitch-detection-in-video-games-using-cnns.pdf)]
 [[blog](https://www.ea.com/seed/news/graphical-glitch-detection-convolutional-neural-networks)]
@@ -1790,7 +1798,8 @@ Graphical Glitch Detection in Video Games Using CNNs
 # Game analytics
 
 Not sure if it should be covered here. Analytics can be used for many areas of game development 
-(example: ```prevent-cheating/fraud``` [[local](#prevent-cheating/fraud)], and possibly is it better to cover it there?
+(example: ```prevent-cheating/fraud``` [[local](#prevent-cheating/fraud)]), 
+but are there any gamedev-specific application of ML in analytics?
 
 # Common Models/Papers/Repos
 

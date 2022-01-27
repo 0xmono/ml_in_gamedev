@@ -64,13 +64,15 @@
             - [Cards](#cards)
                 - [MTG](#mtg)
         - [Text](#text-1)
-        - [Sound](#sound)
+        - [Audio](#audio)
             - [Music](#music)
                 - [Music Source Separation](#music-source-separation)
                 - [Music Generation](#music-generation)
+                - [Music Stryle Transfer](#music-stryle-transfer)
             - [Voice](#voice-1)
                 - [TTS](#tts)
                     - [Soft](#soft)
+            - [Game Commenting](#game-commenting)
             - [Cources](#cources)
         - [Video: trailers/cinematics](#video-trailerscinematics)
     - [Code](#code)
@@ -1453,7 +1455,7 @@ Generates poetry from images using convolutional and recurrent neural networks.
 
 See ```Language Models``` [[local](#language-models)].
 
-### Sound
+### Audio
 
 #### Music
 
@@ -1497,14 +1499,56 @@ Current Trends in Audio Source Separation
 
 *TODO*: add a lot of existing projects and papers.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+Deep-Music
+[[project](https://kasooja.github.io/2017/03/11/deep-music)] - 
+Kartik Asooja page. 
+*TODO*: add papers from here.
+
+ming Visually Guided Sound Generation (BMVC 2021)
+[[project](https://iashin.ai/SpecVQGAN)]
+[[code](https://github.com/v-iashin/SpecVQGAN)]
+[[colab](https://colab.research.google.com/drive/1pxTIMweAKApJZ3ZFqyBee3HtMqFpnwQ0?usp=sharing)]
+[[video](https://www.youtube.com/watch?v=Bucb3nAa398)].
+
+Francesco Marchetti- Convolutional Generative Adversarial Network for Scottish Music Generation
+[[project](https://link.springer.com/chapter/10.1007/978-3-030-72914-1_13)]
+[[video](https://www.youtube.com/watch?v=HJPvhT8jIjw)].
+
 Deep Learning Techniques for Music Generation -- A Survey
 [[code (part)](https://github.com/napulen/MiniBach)]
 [[arxiv](https://arxiv.org/abs/1709.01620)].
 
+JazzML: Computational Jazz Improvisation
+[[code](https://github.com/evancchow/jazzml)]
+[[paper](https://direct.mit.edu/comj/article-abstract/34/3/56/94318/Machine-Learning-of-Jazz-Grammars)].
+
+MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation
+[[code](https://github.com/RichardYang40148/MidiNet)]
+[[code (PyTorch)](https://github.com/annahung31/MidiNet-by-pytorch)]
+[[data](https://github.com/wayne391/symbolic-music-datasets)]
+[[arxiv](https://arxiv.org/abs/1703.10847)].
+
+WaveNet: A Generative Model for Raw Audio
+[[code (TensorFlow, unafficial)](https://github.com/ibab/tensorflow-wavenet)]
+[[code (Keras, unafficial)](https://github.com/basveeling/wavenet)]
+[[code (unafficial)](https://github.com/vincentherrmann/pytorch-wavenet)]
+[[arxiv](https://arxiv.org/abs/1609.03499)]
+[[blog](https://deepmind.com/blog/article/wavenet-generative-model-raw-audio)].
+
+##### Music Stryle Transfer
+
+ToneNet : A Musical Style Transfer
+[[blog](https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910)].
+
 #### Voice
+
+Developing and Running Neural Audio in Constrained Environments
+[[project](https://www.gdcvault.com/play/1026619/Machine-Learning-Summit-Developing-and)].
 
 ##### TTS
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
 Good collection of papers
 [[project](https://github.com/coqui-ai/TTS-papers)].
 
@@ -1551,7 +1595,13 @@ play.ht
 lovo.ai
 [[soft](https://www.lovo.ai)].
 
-Also see ```Synthesia```[[local](#Synthesia)].
+See ```Synthesia```[[local](#Synthesia)].
+
+#### Game Commenting
+
+AI generating real-time football commentary (2019)
+[[code](https://github.com/ChintanTrivedi/football_ai_commentary)]
+[[video](https://www.youtube.com/watch?v=p9AmkiG8UeI)].
 
 #### Cources
 

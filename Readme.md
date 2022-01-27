@@ -80,6 +80,28 @@
     - [Speech recognition](#speech-recognition)
     - [Detection and segmentation](#detection-and-segmentation)
         - [Detectron](#detectron)
+    - [Human](#human)
+        - [Datasets](#datasets)
+        - [Action](#action-1)
+        - [Clothes](#clothes)
+            - [Virtual Try-on \(VTON\)](#virtual-try-on-vton)
+        - [Person Pose and Shape](#person-pose-and-shape)
+            - [Person Pose Detection](#person-pose-detection)
+            - [Person Segmentation](#person-segmentation)
+            - [Person Part Segmentation](#person-part-segmentation)
+            - [Person Pose Estimation](#person-pose-estimation)
+            - [Hand Pose Estimation](#hand-pose-estimation)
+            - [Head Pose Estimation](#head-pose-estimation)
+            - [Person Shape Capture](#person-shape-capture)
+            - [Person Dense Pose](#person-dense-pose)
+            - [Pose Retargeting](#pose-retargeting)
+            - [Human-Object Interaction](#human-object-interaction)
+            - [Only 2D](#only-2d)
+        - [Statistical Body Models](#statistical-body-models)
+        - [Motion](#motion)
+            - [Motion Manifold](#motion-manifold)
+        - [Human Synthesys](#human-synthesys)
+            - [Head](#head)
     - [Radiance Fields](#radiance-fields)
     - [Siren](#siren)
     - [Tools](#tools)
@@ -669,66 +691,17 @@ See ```Language Models``` [[local](#language-models)].
 
 Possible using pose as a control input, (relatively) similar to [Kinect](https://en.wikipedia.org/wiki/Kinect).
 
-Physics-based Human Motion Estimation and Synthesis from Videos (ICCV 2021)
-[[project](https://nv-tlabs.github.io/physics-pose-estimation-project-page)]
-[[arxiv](https://arxiv.org/abs/2109.09913)].
+See ```Person Pose Estimation```[[local](#person-pose-estimation)].
 
-HuMoR: 3D Human Motion Model for Robust Pose Estimation (ICCV 2021)
-[[project](https://geometry.stanford.edu/projects/humor)]
-[[code](https://github.com/davrempe/humor)]
-[[paper](https://geometry.stanford.edu/projects/humor/docs/humor.pdf)]
-[[arxiv](https://arxiv.org/abs/2105.04668)]
-[[supplement](https://geometry.stanford.edu/projects/humor/supp.html)].
+See ```Detectron```[[local](#detectron)].
 
-Neural Monocular 3D Human Motion Capture with Physical Awareness (SIGGRAPH 2021)
-[[project](https://vcai.mpi-inf.mpg.de/projects/PhysAware)]
-[[paper](https://vcai.mpi-inf.mpg.de/projects/PhysAware/data/PhysAware.pdf)]
-[[arxiv](https://arxiv.org/abs/2105.01057)]
-[[video](https://www.youtube.com/watch?v=8JhUjzFAMJI)].
+See ```Motion```[[local](#motion)].
 
-Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild (ICCV 2021)
-[[code](https://github.com/akashsengupta1997/hierarchicalprobabilistic3dhuman)]
-[[arxiv](https://arxiv.org/abs/2110.00990)]
-[[video](https://www.youtube.com/watch?v=qVrvOebDBs4)]
-[[video](https://www.youtube.com/watch?v=w7k9UC3sfGA)].
-
-Contact and Human Dynamics from Monocular Video (ECCV 2020)
-[[project](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020)]
-[[code](https://github.com/davrempe/contact-human-dynamics)]
-[[paper](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020/content/contact-and-dynamics-2020.pdf)]
-[[arxiv](https://arxiv.org/abs/2007.11678)]
-[[supplement](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020/content/contact-and-dynamics-2020-supp.pdf)]
-[[video](https://www.youtube.com/watch?v=qR9KW6JzXX4)].
-
-XNect: Real-time Multi-Person 3D Motion Capture with a Single RGB Camera (SIGGRAPH 2020)
-[[project](https://vcai.mpi-inf.mpg.de/projects/XNect)]
-[[code (partial)](https://github.com/mehtadushy/SelecSLS-Pytorch)]
-[[paper](https://vcai.mpi-inf.mpg.de/projects/XNect/content/XNect_SIGGRAPH2020.pdf)]
-[[arxiv](https://arxiv.org/abs/1907.00837)]
-[[supplement](https://vcai.mpi-inf.mpg.de/projects/XNect/content/XNect_supp_SIGGRAPH2020.pdf)].
-
-Epipolar Transformers (CVPR 2020)
-[[code](https://github.com/yihui-he/epipolar-transformers)]
-[[arxiv](https://arxiv.org/abs/2005.04551)]
-[[video](https://www.youtube.com/playlist?list=PLkz610aVEqV-f4Ws0pH0e8Nm_2wTGI1yP)].
-
-Real-time 3D Multi-person Pose Estimation Demo
-[[code](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch)].
-
-DensePose: Dense Human Pose Estimation In The Wild (ICCV 2019)
-[[project](http://densepose.org)]
-[[code](https://github.com/facebookresearch/DensePose)]
-[[arxiv](https://arxiv.org/abs/1802.00434)]
-[[video](https://www.youtube.com/watch?v=Dhkd_bAwwMc)].
-
-BodyPoseNet
-[[blog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/bodyposenet)] - 
-NVidia's BodyPoseNet model based on [Train Adapt Optimize (TAO) Toolkit](https://developer.nvidia.com/tao-toolkit).
-
-Meysam Madadi: deep learning advances on human pose and shape estimation
-[[video](https://www.youtube.com/watch?v=bnvuOOgQ2zY)].
-
-Also see ```Detectron``` [[local](#detectron)].
+Playing Mortal Kombat with TensorFlow.js. Transfer learning and data augmentation (2018)
+[[code](https://github.com/mgechev/movement.js)]
+[[code](https://github.com/mgechev/mk.js)]
+[[blog](https://blog.mgechev.com/2018/10/20/transfer-learning-tensorflow-js-data-augmentation-mobile-net)]
+[[video](https://www.youtube.com/watch?v=0_yfU_iNUYo)].
 
 #### Voice
 
@@ -1434,6 +1407,448 @@ Projects that are built on detectron2 [[code](https://github.com/facebookresearc
 
 Previous version of Detectron [[code](https://github.com/facebookresearch/Detectron)].
 
+## Human
+
+### Datasets
+
+HUMBI: A Large Multiview Dataset of Human Body Expressions and Benchmark Challenge (CVPR 2020)
+[[project](https://humbi-data.net)]
+[[code](https://github.com/zhixuany/HUMBI)]
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_HUMBI_A_Large_Multiview_Dataset_of_Human_Body_Expressions_CVPR_2020_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/2110.00119)]
+[[supplement](https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Yu_HUMBI_A_Large_CVPR_2020_supplemental.zip)]
+[[video](https://www.youtube.com/watch?v=Vd1VEmfM3YQ)]
+[[video](https://www.youtube.com/watch?v=bHc0CmXRUO4)]
+[[video](https://www.youtube.com/watch?v=1iVjFgYq8ZU)].
+
+### Action
+
+MMAction2
+[[code](https://github.com/open-mmlab/mmaction2)] - 
+open-source toolbox for video understanding based on PyTorch.
+Not only, but mostly for human, so for now it is here.
+*TODO*: add pertinent models from MMAction2 here explicitly.
+
+### Clothes
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+Clothes-3D
+[[project](https://github.com/lzhbrian/Clothes-3D)]. 
+*TODO*: add papers from here.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+awesome clothed people
+[[project](https://github.com/weihaox/awesome-clothed-human)].
+*TODO*: add papers from here.
+
+Point-Based Modeling of Human Clothing (ICCV 2021)
+[[project](https://saic-violet.github.io/point-based-clothing)]
+[[code](https://github.com/saic-vul/point_based_clothing)]
+[[data](https://chalearnlap.cvc.uab.cat/dataset/38/description)]
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Zakharkin_Point-Based_Modeling_of_Human_Clothing_ICCV_2021_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/2104.08230)]
+[[video](https://www.youtube.com/watch?v=kFrAu415kDU)].
+
+The Power of Points for Modeling Humans in Clothing (ICCV 2021)
+[[project](https://qianlim.github.io/POP)]
+[[code](https://github.com/qianlim/POP)]
+[[data](https://pop.is.tue.mpg.de)]
+[[paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/655/POP_camera_ready.pdf)]
+[[arxiv](https://arxiv.org/abs/2109.01137)]
+[[supplement](https://ps.is.mpg.de/uploads_file/attachment/attachment/656/POP_supp.pdf)]
+[[video](https://www.youtube.com/watch?v=JY5OI74yJ4w)].
+
+SCALE: Modeling Clothed Humans with a Surface Codec of Articulated Local Elements (CVPR 2021)
+[[project](https://qianlim.github.io/SCALE)]
+[[code](https://github.com/qianlim/SCALE)]
+[[arxiv](https://arxiv.org/abs/2104.07660)]
+[[poster](https://ps.is.mpg.de/uploads_file/attachment/attachment/650/SCALE_poster_CVPR_final_compressed.pdf)]
+[[video](https://www.youtube.com/watch?v=-EvWqFCUb7U)].
+
+SCANimate: Weakly Supervised Learning of Skinned Clothed Avatar Networks (CVPR 2021)
+[[project](https://scanimate.is.tue.mpg.de)]
+[[code](https://github.com/shunsukesaito/SCANimate)]
+[[demo](https://scanimate.is.tue.mpg.de/#animations)]
+[[paper](https://scanimate.is.tue.mpg.de/media/upload/paper/SCANimate.pdf)]
+[[supplement](https://scanimate.is.tue.mpg.de/media/upload/poster/CVPR_poster_SCANimate.pdf)]
+[[supplement](https://scanimate.is.tue.mpg.de/media/upload/paper/SCANimate-supp.pdf)]
+[[video](https://www.youtube.com/watch?v=ohavL55Oznw)]
+[[video](https://www.youtube.com/watch?v=EeNFvmNuuog)].
+
+Neural 3D Clothes Retargeting from a Single Image
+[[arxiv](https://arxiv.org/abs/2102.00062)].
+
+CAPE: Clothed Auto Person Encoding, 
+Learning to Dress 3D People in Generative Clothing (CVPR 2020)
+[[project](https://cape.is.tue.mpg.de)]
+[[code](https://github.com/QianliM/CAPE)]
+[[data](https://cape.is.tue.mpg.de/dataset.html)]
+[[paper](https://cape.is.tuebingen.mpg.de/media/upload/CAPE_paper.pdf)]
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ma_Learning_to_Dress_3D_People_in_Generative_Clothing_CVPR_2020_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/1907.13615)]
+[[supplement](https://cape.is.tuebingen.mpg.de/media/upload/CAPE_suppmat.pdf)]
+[[slides](https://cape.is.tuebingen.mpg.de/media/upload/CAPE_slides.pdf)].
+[[video](https://www.youtube.com/watch?v=e4W-hPFNwDE)].
+
+TailorNet: Predicting Clothing in 3D as a Function of Human Pose, Shape and Garment Style (CVPR 2020)
+[[project](https://virtualhumans.mpi-inf.mpg.de/tailornet)]
+[[code](https://github.com/chaitanya100100/TailorNet)]
+[[data](https://github.com/zycliao/TailorNet_dataset)]
+[[paper](https://virtualhumans.mpi-inf.mpg.de/tailornet/patel20tailornet.pdf)]
+[[arxiv](https://arxiv.org/abs/2003.04583)]
+[[supplement](https://virtualhumans.mpi-inf.mpg.de/tailornet/patel20tailornet_supp.pdf)]
+[[video](https://www.youtube.com/watch?v=F0O21a_fsBQ)]
+[[video](https://www.youtube.com/watch?v=vg7a52zObjs)].
+
+ClothCap: Seamless 4D Clothing Capture and Retargeting (SIGGRAPH 2017)
+[[project](https://clothcap.is.tue.mpg.de)]
+[[project](https://ps.is.mpg.de/publications/pons-moll-siggraph2017)]
+[[paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/374/clothcap.pdf)]
+[[paper](https://virtualhumans.mpi-inf.mpg.de/papers/ponsmollSIGGRAPH17clothcap/ponsmollSIGGRAPH17clothcap.pdf)]
+[[video](https://www.youtube.com/watch?v=dVxj8tzx04U)]
+
+#### Virtual Try-on (VTON)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+A Curated List of Awesome Virtual Try-on (VTON) Research
+[[project](https://github.com/minar09/awesome-virtual-try-on)].
+*TODO*: add papers from here.
+
+### Person Pose and Shape
+
+*TODO*: review structure of inner topics.
+
+*TODO*: are all papers works only with images, or may be wirth video (and use temporal information), or 3D scans? Should I structure?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+Awesome 3D Body Papers
+[[project](https://github.com/3DFaceBody/awesome-3dbody-papers)].
+*TODO*: add papers from here.
+
+MMHuman
+[[code](https://github.com/open-mmlab/mmhuman3d)] - 
+open source PyTorch-based codebase for the use of 3D human parametric models in computer vision and computer graphics.
+*TODO*: add pertinent models from MMHuman here explicitly.
+
+OpenPose
+[[code](https://github.com/CMU-Perceptual-Computing-Lab/openpose)] - 
+mostly 2D.
+
+Meysam Madadi: deep learning advances on human pose and shape estimation (2020)
+[[video](https://www.youtube.com/watch?v=bnvuOOgQ2zY)].
+
+See ```Statistical Body Models```[[local](#statistical-body-models).
+
+#### Person Pose Detection
+
+BodyPoseNet (2021)
+[[blog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/bodyposenet)] - 
+NVidia's BodyPoseNet model based on [Train Adapt Optimize (TAO) Toolkit](https://developer.nvidia.com/tao-toolkit).
+
+#### Person Segmentation
+
+#### Person Part Segmentation
+
+#### Person Pose Estimation
+
+MMPose
+[[code](https://github.com/open-mmlab/mmpose)] - 
+open-source toolbox for pose estimation based on PyTorch.
+*TODO*: add pertinent models from MMPose here explicitly.
+
+Real-time 3D Multi-person Pose Estimation Demo
+[[code](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch)].
+
+XNect: Real-time Multi-Person 3D Motion Capture with a Single RGB Camera (SIGGRAPH 2020)
+[[project](https://vcai.mpi-inf.mpg.de/projects/XNect)]
+[[code (partial)](https://github.com/mehtadushy/SelecSLS-Pytorch)]
+[[paper](https://vcai.mpi-inf.mpg.de/projects/XNect/content/XNect_SIGGRAPH2020.pdf)]
+[[arxiv](https://arxiv.org/abs/1907.00837)]
+[[supplement](https://vcai.mpi-inf.mpg.de/projects/XNect/content/XNect_supp_SIGGRAPH2020.pdf)].
+
+Epipolar Transformers (CVPR 2020)
+[[code](https://github.com/yihui-he/epipolar-transformers)]
+[[arxiv](https://arxiv.org/abs/2005.04551)]
+[[video](https://www.youtube.com/playlist?list=PLkz610aVEqV-f4Ws0pH0e8Nm_2wTGI1yP)].
+
+Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image (ECCV 2016)
+[[project](https://smplify.is.tuebingen.mpg.de)]
+[[paper](https://files.is.tue.mpg.de/black/papers/BogoECCV2016.pdf)]
+[[video](https://www.youtube.com/watch?v=eUnZ2rjxGaE)]
+[[video](https://www.youtube.com/watch?v=OgX49T2Cqdo)].
+
+#### Hand Pose Estimation
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+Awesome Hand Pose Estimation
+[[project](https://github.com/xinghaochen/awesome-hand-pose-estimation)].
+*TODO*: add papers from here.
+
+HuMoR: 3D Human Motion Model for Robust Pose Estimation (ICCV 2021)
+[[project](https://geometry.stanford.edu/projects/humor)]
+[[code](https://github.com/davrempe/humor)]
+[[paper](https://geometry.stanford.edu/projects/humor/docs/humor.pdf)]
+[[arxiv](https://arxiv.org/abs/2105.04668)]
+[[supplement](https://geometry.stanford.edu/projects/humor/supp.html)].
+
+3D Hand Pose Estimation Using Convolutional Neural Networks (2018)
+[[project](https://www.microsoft.com/en-us/research/video/3d-hand-pose-estimation-using-convolutional-neural-networks)]
+[[video](https://www.youtube.com/watch?v=aE7kW4b6CjA)].
+
+#### Head Pose Estimation
+
+DeepHeadPose
+[[code](https://github.com/DriverDistraction/DeepHeadPose)]
+[[code](https://github.com/natanielruiz/deep-head-pose)]
+[[arxiv](https://arxiv.org/abs/1710.00925)].
+
+#### Person Shape Capture
+
+Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild (ICCV 2021)
+[[code](https://github.com/akashsengupta1997/hierarchicalprobabilistic3dhuman)]
+[[arxiv](https://arxiv.org/abs/2110.00990)]
+[[video](https://www.youtube.com/watch?v=qVrvOebDBs4)]
+[[video](https://www.youtube.com/watch?v=w7k9UC3sfGA)].
+
+TightCap: 3D Human Shape Capture with Clothing Tightness Field (TOG 2021)
+[[project](https://chenxin.tech/files/Paper/TOG2021_TightCap/project_page_TightCap/index.htm)]
+[[code](https://github.com/ChenFengYe/TightCap)]
+[[paper](https://chenxin.tech/files/Paper/TOG2021_TightCap/project_page_TightCap/data/TightCap.pdf)]
+[[arxiv](https://arxiv.org/abs/1904.02601)]
+[[video](https://chenxin.tech/files/Paper/TOG2021_TightCap/project_page_TightCap/data/video.mp4)].
+
+DeepCap: Monocular Human Performance Capture Using Weak Supervision
+[[project](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap)]
+[[data](https://gvv-assets.mpi-inf.mpg.de)]
+[[paper](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap/data/paper.pdf)]
+[[arxiv](https://arxiv.org/abs/2003.08325)]
+[[slides](https://vision-and-learning-lab-ualberta.github.io/talk_slides/ji_july_19.pdf)]
+[[supplement](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap/data/supp.pdf)]
+[[video](https://www.youtube.com/watch?v=C4eDrvJ9aBs)]
+[[video](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap/data/video.mp4)]
+[[video](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap/data/talk.mp4)]
+[[video](https://people.mpi-inf.mpg.de/~mhaberma/projects/2020-cvpr-deepcap/data/teaser.mp4)]. 
+*TODO*: see papers used the dataset below.
+
+Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion (CVPR 2020)
+[[project](https://virtualhumans.mpi-inf.mpg.de/ifnets)]
+[[code](https://github.com/jchibane/if-net)]
+[[paper](https://virtualhumans.mpi-inf.mpg.de/papers/chibane20ifnet/chibane20ifnet.pdf)]
+[[arxiv](https://arxiv.org/abs/2003.01456)]
+[[video](https://www.youtube.com/watch?v=cko07jINRZg)].
+
+PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization (ICCV 2019)
+[[project](https://shunsukesaito.github.io/PIFu)]
+[[code](https://github.com/shunsukesaito/PIFu)]
+[[arxiv](https://arxiv.org/abs/1905.05172)]
+[[video](https://www.youtube.com/watch?v=S1FpjwKqtPs)].
+
+Learning to Reconstruct People in Clothing from a Single RGB Camera (CVPR 2019)
+[[project](https://virtualhumans.mpi-inf.mpg.de/octopus)]
+[[code](https://github.com/thmoa/octopus)]
+[[paper](https://virtualhumans.mpi-inf.mpg.de/papers/alldieck19cvpr/alldieck19cvpr.pdf)]
+[[video](https://www.youtube.com/watch?v=_wuEru4WeDw)].
+
+#### Person Dense Pose
+
+DensePose: Dense Human Pose Estimation In The Wild (ICCV 2019)
+[[project](http://densepose.org)]
+[[code](https://github.com/facebookresearch/DensePose)]
+[[arxiv](https://arxiv.org/abs/1802.00434)]
+[[video](https://www.youtube.com/watch?v=Dhkd_bAwwMc)].
+
+#### Pose Retargeting
+
+Skeleton-Aware Networks for Deep Motion Retargeting (SIGGRAPH 2020)
+[[project](https://deepmotionediting.github.io/retargeting)]
+[[code](https://github.com/DeepMotionEditing/deep-motion-editing)]
+[[arxiv](https://arxiv.org/abs/2005.05732)]
+[[video](https://www.youtube.com/watch?v=ym8Tnmiz5N8)].
+
+See ```Learning Character-Agnostic Motion for Motion Retargeting in 2D```[[local](#LearningCharacterAgnosticMotionForMotionRetargetingIn2D)].
+
+#### Human-Object Interaction
+
+Gravity-Aware Monocular 3D Human-Object Reconstruction (ICCV 2021)
+[[project](https://4dqv.mpi-inf.mpg.de/GraviCap)]
+[[code](https://github.com/rishabhdabral/gravicap)]
+[[data](https://drive.google.com/file/d/1qkcoWot9V4ydFTvilaLo5ahAW-fslnQQ/view?usp=drivesdk)]
+[[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Dabral_Gravity-Aware_Monocular_3D_Human-Object_Reconstruction_ICCV_2021_paper.pdf)]
+[[arxiv](https://arxiv.org/abs/2108.08844)]
+[[supplement](https://openaccess.thecvf.com/content/ICCV2021/supplemental/Dabral_Gravity-Aware_Monocular_3D_ICCV_2021_supplemental.pdf)]
+[[video](https://www.youtube.com/watch?v=UsCOBNSBkqc)].
+
+Neural Free-Viewpoint Performance Rendering under Complex Human-object Interactions (ACM MM 2021)
+[[project](https://sunshinnnn.github.io/HOI-FVV)]
+[[arxiv](https://arxiv.org/abs/2108.00362)]
+[[video](https://www.youtube.com/watch?v=MPPABQORY2I)].
+
+D3D-HOI: Dynamic 3D Human-Object Interactions from Videos (2021)
+[[code](https://github.com/facebookresearch/d3d-hoi)]
+[[arxiv](https://arxiv.org/abs/2108.08420)].
+
+PHOSA: Perceiving 3D Human-Object Spatial Arrangements from a Single Image in the Wild (ECCV 2020)
+[[project](https://jasonyzhang.com/phosa)]
+[[code](https://github.com/facebookresearch/phosa)]
+[[colab](https://colab.research.google.com/drive/1QIoL2g0jdt5E-vYKCIojkIz21j3jyEvo?usp=sharing)]
+[[arxiv](https://arxiv.org/abs/2007.15649)]
+[[video](https://www.youtube.com/watch?v=a5elX3x3Ssc)].
+
+Angjoo Kanazawa: Perceiving 3D Human Interactions in the Wild
+[[video](https://www.youtube.com/watch?v=CuSUtlCb5fE)].
+
+#### Only 2D
+
+<a name="LearningCharacterAgnosticMotionForMotionRetargetingIn2D"></a>
+Learning Character-Agnostic Motion for Motion Retargeting in 2D (SIGGRAPH 2019)
+[[project](https://motionretargeting2d.github.io)]
+[[code](https://github.com/ChrisWu1997/2D-Motion-Retargeting)]
+[[arxiv](https://arxiv.org/abs/1905.01680)]
+[[video](https://www.youtube.com/watch?v=fR4h4OjZSdU)].
+
+Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (CVPR 2017)
+[[code](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)]
+[[arxiv](https://arxiv.org/abs/1611.08050)]
+[[video](https://www.youtube.com/watch?v=OgQLDEAjAZ8&list=PLvsYSxrlO0Cl4J_fgMhj2ElVmGR5UWKpB)]
+[[video](https://www.youtube.com/watch?v=pW6nZXeWlGM)].
+
+AlphaPose
+[[code](https://github.com/MVIG-SJTU/AlphaPose)].
+
+### Statistical Body Models
+
+Model parameter transfer
+[[code](https://github.com/vchoutas/smplx/tree/master/transfer_model)] - 
+code for converting model parameters of one model to another.
+
+STAR: A Sparse Trained Articulated Human Body Regressor (ECCV2020)
+[[project](https://star.is.tue.mpg.de)]
+[[project](https://ps.is.mpg.de/publications/star-eccv-2020)]
+[[code](https://github.com/ahmedosman/STAR)]
+[[paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/618/star_paper.pdf)]
+[[supplement](https://ps.is.mpg.de/uploads_file/attachment/attachment/619/star_supmat.pdf)]
+[[video](https://www.youtube.com/watch?v=JchovWRhrBs)].
+
+Expressive Body Capture: 3D Hands, Face, and Body from a Single Image (CVPR 2019)
+[[project](https://smpl-x.is.tue.mpg.de)]
+[[code](https://github.com/vchoutas/smplify-x)]
+[[code](https://github.com/vchoutas/smplx)]
+[[paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/497/SMPL-X.pdf)]
+[[supplement](https://ps.is.mpg.de/uploads_file/attachment/attachment/498/SMPL-X-supp.pdf)]
+[[poster](https://ps.is.mpg.de/uploads_file/attachment/attachment/517/smplx_poster.pdf)]
+[[video](https://www.youtube.com/watch?v=XyXIEmapWkw)].
+
+Embodied Hands: Modeling and Capturing Hands and Bodies Together (SIGGRAPH ASIA 2017)
+[[project](https://mano.is.tue.mpg.de)]
+[[project](https://ps.is.mpg.de/publications/embodiedhands)]
+[[paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/392/Embodied_Hands_SiggraphAsia2017.pdf)]
+
+SMPL: A Skinned Multi-Person Linear Model (SIGGRAPH Asia 2015)
+[[project](https://smpl.is.tue.mpg.de)]
+[[paper](https://files.is.tue.mpg.de/black/papers/SMPL2015.pdf)]
+[[video](https://www.youtube.com/watch?v=kuBlUyHeV5U)].
+
+Exemplar-Based Statistical Model for Semantic Parametric Design of Human Body (2010)
+[[paper](https://mewangcl.github.io/pubs/CiIHuman.pdf)].
+
+A Statistical Model of Human Pose and Body Shape (Eurographics 2009)
+[[project](https://gvvperfcapeva.mpi-inf.mpg.de/public/ScanDB)]
+
+### Motion
+
+MMFlow
+[[code](https://github.com/open-mmlab/mmflow)] - 
+open source optical flow toolbox based on PyTorch.
+Not only, but mostly for human, so for now it is here.
+*TODO*: add pertinent models from MMFlow here explicitly.
+
+Physics-based Human Motion Estimation and Synthesis from Videos (ICCV 2021)
+[[project](https://nv-tlabs.github.io/physics-pose-estimation-project-page)]
+[[arxiv](https://arxiv.org/abs/2109.09913)].
+
+Neural Monocular 3D Human Motion Capture with Physical Awareness (SIGGRAPH 2021)
+[[project](https://vcai.mpi-inf.mpg.de/projects/PhysAware)]
+[[paper](https://vcai.mpi-inf.mpg.de/projects/PhysAware/data/PhysAware.pdf)]
+[[arxiv](https://arxiv.org/abs/2105.01057)]
+[[video](https://www.youtube.com/watch?v=8JhUjzFAMJI)].
+
+Motion Representations for Articulated Animation (CVPR 2021)
+[[project](https://snap-research.github.io/articulated-animation)]
+[[code](https://github.com/snap-research/articulated-animation)]
+[[arxiv](https://arxiv.org/abs/2104.11280)]
+[[video](https://www.youtube.com/watch?v=gpBYN8t8_yY)].
+
+Contact and Human Dynamics from Monocular Video (ECCV 2020)
+[[project](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020)]
+[[code](https://github.com/davrempe/contact-human-dynamics)]
+[[paper](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020/content/contact-and-dynamics-2020.pdf)]
+[[arxiv](https://arxiv.org/abs/2007.11678)]
+[[supplement](https://geometry.stanford.edu/projects/human-dynamics-eccv-2020/content/contact-and-dynamics-2020-supp.pdf)]
+[[video](https://www.youtube.com/watch?v=qR9KW6JzXX4)].
+
+MotioNet: 3D Human Motion Reconstruction from Monocular Video with Skeleton Consistency (ToG 2020)
+[[project](https://rubbly.cn/publications/motioNet)]
+[[code](https://github.com/Shimingyi/MotioNet)]
+[[arxiv](https://arxiv.org/abs/2006.12075)]
+[[video](https://www.youtube.com/watch?v=8YubchlzvFA)].
+
+SFV: Reinforcement Learning of Physical Skills from Videos (SIGGRAPH Asia 2018)
+[[project](https://xbpeng.github.io/projects/SFV/index.html)]
+[[code](https://github.com/akanazawa/motion_reconstruction)]
+[[paper](https://xbpeng.github.io/projects/SFV/2018_TOG_SFV.pdf)]
+[[arxiv](https://arxiv.org/abs/1810.03599)]
+[[video](https://www.youtube.com/watch?v=4Qg5I5vhX7Q)]
+[[video](https://www.youtube.com/watch?v=_iXt7by4nU4)].
+
+QuaterNet: A Quaternion-based Recurrent Model for Human Motion (BMVC 2018)
+[[code](https://github.com/facebookresearch/QuaterNet)]
+[[arxiv](https://arxiv.org/abs/1805.06485)]
+
+On human motion prediction using recurrent neural networks (CVPR 2017)
+[[code](https://github.com/una-dinosauria/human-motion-prediction)]
+[[arxiv](https://arxiv.org/abs/1705.02445)]
+
+A Deep Learning Framework for Character Motion Synthesis and Editing (SIGGRAPH 2016)
+[[project](https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing)]
+[[paper](https://theorangeduck.com/media/uploads/motionsynthesis.pdf)]
+[[video](https://www.youtube.com/watch?v=urf-AAIwNYk)]
+[[video (VML Lab Seminar)](https://www.youtube.com/watch?v=R4C-7rcKmcQ)].
+
+#### Motion Manifold
+
+Constructing Human Motion Manifold with Sequential Networks (Computer Graphics Forum 2020)
+[[project](https://motionlab.kaist.ac.kr/?page_id=5962)]
+[[code](https://github.com/DK-Jang/human_motion_manifold)]
+[[data](https://drive.google.com/file/d/1HNcgnCMOZ9p6WR-lsKhLOQhHbgOjZHhg/view?usp=sharing)]
+[[arxiv](https://arxiv.org/abs/2005.14370)]
+[[video](https://www.youtube.com/watch?v=DPXnidbmtvs)].
+
+Learning Motion Manifolds with Convolutional Autoencoders (SIGGRAPH Asia 2015)
+[[project](https://theorangeduck.com/page/learning-motion-manifolds-convolutional-autoencoders)]
+[[paper](https://theorangeduck.com/media/uploads/motioncnn.pdf)]
+[[supplement](https://theorangeduck.com/media/uploads/other_stuff/motioncnn.odp)]
+[[video](https://www.youtube.com/watch?v=dLopOB6D9co)] - 
+may be used for cleaning mocap data and in ```Person Pose and Shape Detection```[[local](#person-pose-and-shape)].
+
+### Human Synthesys
+
+#### Head
+
+HeadGAN: One-shot Neural Head Synthesis and Editing (ICCV 2021)
+[[project](https://michaildoukas.github.io/HeadGAN)]
+[[arxiv](https://arxiv.org/abs/2012.08261)]
+[[poster](https://www.dropbox.com/s/cs4b6wy5numb0yt/HeadGAN-poster.pdf?dl=1)]
+[[video](https://www.youtube.com/watch?v=5eg85fi7Y5g)]
+[[video](https://www.youtube.com/watch?v=Xo9IW3cMGTg)].
+
+CoMA: Generating 3D faces using Convolutional Mesh Autoencoders ((ECCV) 2018)
+[[project](https://coma.is.tue.mpg.de)]
+[[project](https://ps.is.mpg.de/publications/coma)]
+[[code](https://github.com/anuragranj/coma)]
+[[code (PyTorch)](https://github.com/pixelite1201/pytorch_coma)]
+[[code](https://ps.is.mpg.de/uploads_file/attachment/attachment/439/1285.pdf)]
+[[code](https://arxiv.org/abs/1807.10267)]
+[[code](https://ps.is.mpg.de/uploads_file/attachment/attachment/440/1285-supp.pdf)].
 ## Radiance Fields
 
 BARF: Bundle-Adjusting Neural Radiance Fields (ICCV 2021)

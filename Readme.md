@@ -1738,6 +1738,10 @@ Augmenting Automated Game Testing with Deep Reinforcement Learning (CoG 2020)
 [[video](https://www.youtube.com/watch?v=2n8Tjz0S2rs)]
 [[video](https://www.youtube.com/watch?v=NkhrqiOVA64)].
 
+Successfully Use Deep Reinforcement Learning in Testing and NPC Development
+[[project](https://www.gdcvault.com/play/1026732/Machine-Learning-Summit-Successfully-Use)]
+[[video](https://www.youtube.com/watch?v=Q5RAE73zCKQ)].
+
 OpenAI Baselines
 [[code](https://github.com/openai/baselines)] - 
 high-quality implementations of reinforcement learning algorithms.
@@ -1756,7 +1760,7 @@ OpenAI Proximal Policy Optimization Algorithms
 [[blog](https://openai.com/blog/openai-baselines-ppo)]
 
 Control Strategies for Physically Simulated Characters Performing Two-player Competitive Sports
-[[paper](https://scontent-waw1-1.xx.fbcdn.net/v/t39.8562-6/222612975_4146618745406822_3372753682415377041_n.pdf?_nc_cat=110&ccb=1-5&_nc_sid=ae5e01&_nc_ohc=EicvCXCwkXAAX8ZvKP-&_nc_ht=scontent-waw1-1.xx&oh=00_AT-TX726CBWbKukyW77Fc8HKPQdJcb5Kw3dwMvVKCrOFzg&oe=61E496C5)]
+\[[paper][Control Strategies for Physically Simulated Characters Performing Two-player Competitive Sports]\]
 [[blog](https://ai.facebook.com/research/publications/control-strategies-for-physically-simulated-characters-performing-two-player-competitive-sports)].
 
 Artificial intelligence through learning or Pavlovian algorithm?
@@ -1764,7 +1768,7 @@ Artificial intelligence through learning or Pavlovian algorithm?
 
 Aslo see ```Environments```[[local](#environments)].
 
-Also see ```DeepMind```[[local](#deepmind)].
+See ```DeepMind```[[local](#deepmind)].
 
 ### Graphics
 

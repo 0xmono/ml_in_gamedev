@@ -94,6 +94,7 @@
     - [Language Models](#language-models)
     - [Hugging Face Transformers](#hugging-face-transformers)
     - [Speech recognition](#speech-recognition)
+    - [Classification](#classification)
     - [Detection and segmentation](#detection-and-segmentation)
         - [Detectron](#detectron)
     - [Human](#human)
@@ -1920,6 +1921,26 @@ Hugging Face Course [[course](https://huggingface.co/course)].
 speech-to-text topic on github
 [[code](https://github.com/topics/speech-to-text)] - 
 a lot of good projects.
+
+## Classification
+
+MMClassification
+[[code](https://github.com/open-mmlab/mmclassification)] - 
+open source image classification toolbox based on PyTorch.
+*TODO*: add pertinent models from MMClassification here explicitly.
+
+<a name="MMFewshot"></a>
+MMFewshot
+[[code](https://github.com/open-mmlab/mmfewshot)] - 
+open source few shot learning toolbox based on PyTorch.
+*TODO*: add pertinent models from MMFewshot here explicitly.
+
+Common Objects in 3D: Large-Scale Learning and Evaluation of Real-life 3D Category Reconstruction (ICCV 2021)
+[[project](https://henzler.github.io/publication/common_3d_objects)]
+[[code](https://github.com/facebookresearch/co3d)]
+[[data](https://ai.facebook.com/datasets/co3d-downloads)]
+[[arxiv](https://arxiv.org/abs/2109.00512)]
+[[video](https://www.youtube.com/watch?v=hMx9nzG50xQ)].
 
 ## Detection and segmentation
 

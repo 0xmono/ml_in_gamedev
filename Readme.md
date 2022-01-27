@@ -1944,6 +1944,18 @@ Common Objects in 3D: Large-Scale Learning and Evaluation of Real-life 3D Catego
 
 ## Detection and segmentation
 
+MMDetection
+[[code](https://github.com/open-mmlab/mmdetection)] - 
+open source object detection toolbox based on PyTorch.
+*TODO*: add pertinent models from MMDetection here explicitly.
+
+MMDetection3D
+[[code](https://github.com/open-mmlab/mmdetection3d)] - 
+open source object detection toolbox based on PyTorch.
+*TODO*: add pertinent models from MMDetection3D here explicitly.
+
+See ```MMFewshot```[[local](#MMFewshot)].
+
 ### Detectron
 
 Detectron2 is Facebook AI Research's next generation library that provides 

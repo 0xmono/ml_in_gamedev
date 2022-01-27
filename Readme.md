@@ -774,15 +774,22 @@ Friend, Collaborator, Student, Manager: How Design of an AI-Driven Game Level Ed
 Deep Learning for Procedural Content Generation
 [[arxiv](https://arxiv.org/abs/2010.04548)].
 
-Procedural Content Generation via Machine Learning (PCGML)
+PCGML: Procedural Content Generation via Machine Learning
 [[arxiv](https://arxiv.org/abs/1702.00539)].
 
-Also see Matthew Guzdial's course videos [[local](#MatthewGuzdialPCG)].
+See Matthew Guzdial's course videos [[local](#MatthewGuzdialPCG)].
 
 Julian Togelius - Increasing Generality in Reinforcement Learning through PCG @ UCL DARK
 [[video](https://www.youtube.com/watch?v=9KPcUgnjpMg)].
 
 ### Art
+
+De-rendering the World's Revolutionary Artefacts (CVPR 2021)
+[[project](https://sorderender.github.io)]
+[[code](https://github.com/elliottwu/sorderender)]
+[[arxiv](https://arxiv.org/abs/2104.03954)]
+[[video](https://www.youtube.com/watch?v=pxkYyyw02H0)] - 
+learns to de-render a single image into shape, albedo and complex lighting and material components, allowing for novel-view synthesis and relighting.
 
 #### Art Search
 

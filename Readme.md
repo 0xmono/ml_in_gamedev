@@ -40,6 +40,12 @@
         - [Art](#art)
             - [Art Search](#art-search)
             - [Images](#images)
+                - [Multimodal-to-Image](#multimodal-to-image)
+                - [Image-to-Image](#image-to-image)
+                    - [Image-to-Image Supervised](#image-to-image-supervised)
+                    - [Image-to-Image Unsupervised](#image-to-image-unsupervised)
+                - [Textures](#textures)
+                - [Generative](#generative)
                 - [Text-to-Image](#text-to-image)
                     - [DALL-E](#dall-e)
                     - [CLIP](#clip)
@@ -777,15 +783,192 @@ Promethean Ai
 
 A lot of possibilities for generation images such as concept art or textures.
 
-Multimodal Conditional Image Synthesis with Product-of-Experts GANs
+MMEditing
+[[code](https://github.com/open-mmlab/mmediting)] - 
+open source image and video editing toolbox based on PyTorch.
+*TODO*: add pertinent models from MMEditing here explicitly.
+
+See ```View Synthesis```[[local](#view-synthesis)].
+
+See ```Radiance Fields```[[local](#radiance-fields)].
+
+##### Multimodal-to-Image
+
+Multimodal Conditional Image Synthesis with Product-of-Experts GANs (2021)
 [[project](https://deepimagination.cc/PoE-GAN)]
 [[arxiv](https://arxiv.org/abs/2112.05130)]
 [[video](https://www.youtube.com/watch?v=56aA_FaeAPY)] - 
 text + sketch + segmentation = image.
 
-Also see ```Radiance Fields```[[local](#radiance-fields)].
+##### Image-to-Image
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30"/>
+awesome image-to-image translation
+[[project](https://github.com/weihaox/awesome-image-translation)]
+*TODO*: add papers from here.
+
+###### Image-to-Image Supervised
+
+SPADE: Semantic Image Synthesis with Spatially-Adaptive Normalization (CVPR 2019)
+[[project](https://nvlabs.github.io/SPADE)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/spade/README.md)]
+[[code (Previous Implementation)](https://github.com/NVlabs/SPADE)]
+[[arxiv](https://arxiv.org/abs/1903.07291)]
+[[video](https://www.youtube.com/watch?v=p5U4NgVGAwg)]
+[[video](https://www.youtube.com/watch?v=MXWm6w4E5q0)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+pix2pixHD: High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs (CVPR 2018)
+[[project](https://tcwang0509.github.io/pix2pixHD)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/pix2pixhd/README.md)]
+[[code (Previous Implementation)](https://github.com/NVIDIA/pix2pixHD)]
+[[arxiv](https://arxiv.org/abs/1711.11585)]
+[[video](https://www.youtube.com/watch?v=3AIpPlzM_qs)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+Image-to-Image Translation with Conditional Adversarial Nets (CVPR 2017)
+[[project](https://phillipi.github.io/pix2pix)]
+[[code](https://github.com/phillipi/pix2pix)]
+[[code (PyTorch)](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)]
+[[colab](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb)]
+[[colab](https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb)]
+[[demo](https://affinelayer.com/pixsrv)]
+[[arxiv](https://arxiv.org/abs/1611.07004)]
+[[blog](https://affinelayer.com/pix2pix)]
+[[blog](https://ml4a.github.io/guides/Pix2Pix)]
+[[blog](https://machinelearningmastery.com/a-gentle-introduction-to-pix2pix-generative-adversarial-network)]
+[[video (Two Minute Papers)](https://www.youtube.com/watch?v=u7kQ5lNfUfg)].
+
+###### Image-to-Image Unsupervised
+
+Rethinking the Truly Unsupervised Image-to-Image Translation (ICCV 2021)
+[[code](https://github.com/clovaai/tunit)]
+[[arxiv](https://arxiv.org/abs/2006.06500)]
+[[video](https://www.youtube.com/watch?v=sEG8hD64c_Q)].
+
+Few-Shot Unsupervised Image-to-Image Translation on complex scenes
+[[arxiv](https://arxiv.org/abs/2106.03770)].
+
+COCO-FUNIT: Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder (ECCV 2020)
+[[project](https://nvlabs.github.io/COCO-FUNIT)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/coco_funit/README.md)]
+[[paper](https://nvlabs.github.io/COCO-FUNIT/paper.pdf)]
+[[video](https://www.youtube.com/watch?v=btnDfqcedrk)]
+[[video](https://www.youtube.com/watch?v=Ewfx2Um75aw)].
+
+DUNIT: Detection-based Unsupervised Image-to-Image Translation (CVPR 2020)
+[[code](https://github.com/IVRL/Dunit)]
+[[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Bhattacharjee_DUNIT_Detection-Based_Unsupervised_Image-to-Image_Translation_CVPR_2020_paper.pdf)]
+[[video](https://www.youtube.com/watch?v=ENK1ROiZPms)].
+
+StarGAN v2: Diverse Image Synthesis for Multiple Domains (CVPR 2020)
+[[code](https://github.com/clovaai/stargan-v2)]
+[[arxiv](https://arxiv.org/abs/1912.01865)]
+[[video](https://www.youtube.com/watch?v=0EVh5Ki4dIY)]
+[[video](https://www.youtube.com/watch?v=sx5x4KGqX6s)].
+
+FUNIT: Few-Shot Unsupervised Image-to-Image Translation (ICCV 2019)
+[[project](https://nvlabs.github.io/FUNIT)]
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/funit/README.md)]
+[[code](https://github.com/nvlabs/FUNIT)]
+[[arxiv](https://arxiv.org/abs/1905.01723)]
+[[video](https://www.youtube.com/watch?v=kgPAqsC8PLM)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+Recent Advances in Unsupervised Image-to-Image Translation (2019)
+[[video](https://www.youtube.com/watch?v=NsPMlDsRCkM)].
+
+MUNIT: Multimodal Unsupervised Image-to-Image Translation (ECCV 2018)
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/munit/README.md)]
+[[code (Previous Implementation)](https://github.com/NVlabs/MUNIT)]
+[[arxiv](https://arxiv.org/abs/1804.04732)]
+[[video](https://www.youtube.com/watch?v=ab64TWzWn40)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+CVPR18: Session 3-3A: Machine Learning for Computer Vision V
+[[video](https://www.youtube.com/watch?v=sIkUzmgUaxc)] - 
+including ```StarGAN```[[local](#StarGAN)].
+
+<a name="StarGAN"></a>
+StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation (CVPR 2018)
+[[code](https://github.com/yunjey/stargan)]
+[[arxiv](https://arxiv.org/abs/1711.09020)]
+[[video](https://www.youtube.com/watch?v=EYjdLppmERE)]
+[[video](https://www.youtube.com/watch?v=sIkUzmgUaxc)]
+[[video](https://www.youtube.com/watch?v=8XfcDkkFbMs)]
+[[video](https://www.youtube.com/watch?v=lw1lUCreJ0k)].
+
+UNIT: Unsupervised Image-to-Image Translation (NeurIPS 2017)
+[[code](https://github.com/NVlabs/imaginaire/blob/master/projects/unit/README.md)]
+[[code (Previous Implementation)](https://github.com/mingyuliutw/UNIT)]
+[[paper](https://proceedings.neurips.cc/paper/2017/file/dc6a6489640ca02b0d42dabeb8e46bb7-Paper.pdf)]
+[[arxiv](https://arxiv.org/abs/1703.00848)]
+[[video](https://www.youtube.com/watch?v=nlyXoX2aIek)] - 
+part of ```Imaginaire```[[local](#Imaginaire)].
+
+BicycleGAN: Toward Multimodal Image-to-Image Translation
+[[project](https://junyanz.github.io/BicycleGAN)]
+[[code](https://github.com/junyanz/BicycleGAN)]
+[[arxiv](https://arxiv.org/abs/1711.11586)]
+[[poster](https://junyanz.github.io/BicycleGAN/index_files/poster_nips_v3.pdf)]
+[[video](https://www.youtube.com/watch?v=JvGysD2EFhw)].
+
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (ICCV 2017)
+[[project](https://junyanz.github.io/CycleGAN)]
+[[code](https://github.com/junyanz/CycleGAN)]
+[[code (PyTorch)](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)]
+[[colab](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/cyclegan.ipynb)]
+[[colab](https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/cyclegan.ipynb)]
+[[arxiv](https://arxiv.org/abs/1703.10593)]
+[[blog](https://hardikbansal.github.io/CycleGANBlog)]
+[[blog](https://machinelearningmastery.com/what-is-cyclegan)]
+[[video](https://www.youtube.com/watch?v=AxrKVfjSBiA)].
+
+##### Textures
+
+Generative Modelling of BRDF Textures from Flash Images (SIGGRAPH Asia 2021)
+[[project](https://henzler.github.io/publication/neuralmaterial)]
+[[code](https://github.com/henzler/neuralmaterial)]
+[[data](https://drive.google.com/drive/folders/1uUTTyWGM75lkTP0RaawPTALD1eZZ-AXq?usp=sharing)]
+[[arxiv](https://arxiv.org/abs/2102.11861)]
+[[video](https://www.youtube.com/watch?v=_HTiiKxccJ4)].
+
+Implicit Feature Networks for Texture Completion from Partial 3D Data (ECCV 2020)
+[[project](https://virtualhumans.mpi-inf.mpg.de/ifnets)]
+[[code](https://github.com/jchibane/if-net_texture)]
+[[paper](https://virtualhumans.mpi-inf.mpg.de/papers/jchibane20ifnet/SHARP2020.pdf)]
+[[arxiv](https://arxiv.org/abs/2009.09458)].
+
+Learning a Neural 3D Texture Space from 2D Exemplars (CVPR 2020)
+[[project](https://geometry.cs.ucl.ac.uk/projects/2020/neuraltexture)]
+[[code](https://github.com/henzler/neuraltexture)]
+[[paper](https://geometry.cs.ucl.ac.uk/projects/2020/neuraltexture/paper_docs/neuraltexture.pdf)]
+[[arxiv](https://arxiv.org/abs/1912.04158)]
+[[video](https://www.youtube.com/watch?v=it5y2qaONBE)].
+
+Appearance Controlled Face Texture Generation for Video Games Characters
+[[video](https://www.youtube.com/watch?v=ykaTVnG_z1w)].
+
+##### Generative
+
+MMGeneration
+[[code](https://github.com/open-mmlab/mmgeneration)] - open-source toolkit for generative models, especially for GANs now, based on PyTorch.
+*TODO*: add pertinent models from MMGeneration here explicitly.
+
+Lecture 13 \| Generative Models
+[[video](https://www.youtube.com/watch?v=5WoItGTWV54)] - 
+Stanford course ```CS231n: Convolutional Neural Networks for Visual Recognition```
+[[course](http://cs231n.stanford.edu)].
 
 ##### Text-to-Image
+
+Improving Text-to-Image Synthesis Using Contrastive Learning (BMVC 2021)
+[[arxiv](https://arxiv.org/abs/2107.02423)].
+
+DF-GAN: Deep Fusion Generative Adversarial Networks for Text-to-Image Synthesis
+[[code](https://github.com/tobran/DF-GAN)]
+[[arxiv](https://arxiv.org/abs/2008.05865)].
+*TODO*: see projects referenced in github repo.
 
 ###### DALL-E
 

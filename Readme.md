@@ -51,13 +51,15 @@
                     - [CLIP](#clip)
                     - [Deep Daze](#deep-daze)
                     - [Diffusion Models](#diffusion-models)
-                    - [Other](#other-1)
+                    - [Other](#other)
                 - [Bitmaps](#bitmaps)
             - [3D Models](#3d-models)
                 - [Reconstruction From Images and Video](#reconstruction-from-images-and-video)
                     - [Face Image](#face-image)
             - [Shape](#shape)
             - [Level](#level)
+            - [Scene](#scene)
+                - [From Image](#from-image)
             - [Voxel](#voxel)
             - [Cards](#cards)
                 - [MTG](#mtg)
@@ -1379,6 +1381,32 @@ Tutorial: Using machine learning for Level Generation in Snake (video-game)
 
 Ben Berman - Machine Learning and Level Generation
 [[video](https://www.youtube.com/watch?v=Z6lHExfem6U)].
+
+#### Scene
+
+##### From Image
+
+360-Dataset
+[[data](https://vcl.iti.gr/360-dataset)]
+[[arxiv](https://arxiv.org/abs/1807.09620)] - 
+see papers below.
+
+2nd OmniCV workshop (2021 CVPR)
+[[project](https://sites.google.com/view/omnicv2021)]
+[[video](https://www.youtube.com/watch?v=xa7Fl2mD4CA)].
+
+360o Surface Regression with a Hyper-Sphere Loss (3DV 2019)
+[[project](https://vcl3d.github.io/HyperSphereSurfaceRegression)]
+[[code](https://github.com/VCL3D/HyperSphereSurfaceRegression)]
+[[data](https://vcl3d.github.io/3D60)]
+[[model](https://github.com/VCL3D/HyperSphereSurfaceRegression/releases/tag/1.0)]
+[[arxiv](https://arxiv.org/abs/1909.07043)].
+
+Layer-structured 3D Scene Inference via View Synthesis (ECCV 2018)
+[[project](https://shubhtuls.github.io/lsi)]
+[[code](https://github.com/google/layered-scene-inference)]
+[[arxiv](https://arxiv.org/abs/1807.10264)]. 
+See ```View Synthesis```[[local](#view-synthesis)].
 
 #### Voxel
 

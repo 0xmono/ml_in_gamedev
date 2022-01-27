@@ -745,6 +745,9 @@ creates ai videos of speaking avatars.
 
 Machine learning functionality to help with game development.
 
+How Ubisoft La Forge Integrates Machine Learning into Game Production
+[[blog](https://80.lv/articles/how-ubisoft-la-forge-integrates-machine-learning-into-game-production)].
+
 ## Game Design
 
 Automated Game Design via Conceptual Expansion

@@ -159,7 +159,7 @@ If you found an error or have something to add - feel free to create a pull requ
 <details>
 <summary>Some designations in this document</summary>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/> - 
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/--> - 
 this image will be added to show that some project is a container of multiple references to another projects/software/dataset/books and so on. 
 Usually it is a page on github, similar to this document, to some extent. 
 See the [full image](https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg).
@@ -264,7 +264,7 @@ Neural Enhance
 
 #### Neural Rendering
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Awesome neural rendering
 [[project](https://github.com/weihaox/awesome-neural-rendering)] - 
 github repo with collection of resources on neural rendering.
@@ -328,14 +328,14 @@ Talking To AI-Generated People \| Fake Faces, Script, Voice and Lip-Sync Animati
 
 ##### Character Movement and Animation
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 AI4Animation [[project](https://github.com/sebastianstarke/AI4Animation)] - 
 [Sebastian Starke's](https://github.com/sebastianstarke) 
 collection of deep learning  opportunities for character animation and control. 
 Some projects from this collection are listed below.
 *TODO*: add papers from here.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Daniel Holden's cite [[project](https://theorangeduck.com)] - 
 with numerous publications and articles about machine learning and animation.
 *TODO*: add papers from here.
@@ -576,7 +576,7 @@ Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects (
 [[video](https://ehsanik.github.io/forcecvpr2020/#slide_video)]
 [[video](https://www.youtube.com/watch?v=dx3_nXcOqV0)].
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 [Jie Tan's Homepage](https://www.jie-tan.net/publication.html) - 
 ML applied to robots movement, but looks like can be used in game development too.
 
@@ -584,12 +584,12 @@ See ```Physics```[[local](#physics-environments)].
 
 #### Physics-based Simulation Group in TUM
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 [Physics-based Simulation Group](https://ge.in.tum.de) in 
 [Technical University of Munich](https://www.tum.de/en) - 
 has multiple publications, see their cite and links below.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Physics-Based Deep Learning
 [[project](https://github.com/thunil/Physics-Based-Deep-Learning)] - 
 github pahe with ```A LOT``` of links to papers!
@@ -835,7 +835,7 @@ text + sketch + segmentation = image.
 
 ##### Image-to-Image
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 awesome image-to-image translation
 [[project](https://github.com/weihaox/awesome-image-translation)]
 *TODO*: add papers from here.
@@ -1526,7 +1526,7 @@ Current Trends in Audio Source Separation
 
 *TODO*: add a lot of existing projects and papers.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Deep-Music
 [[project](https://kasooja.github.io/2017/03/11/deep-music)] - 
 Kartik Asooja page. 
@@ -1575,7 +1575,7 @@ Developing and Running Neural Audio in Constrained Environments
 
 ##### TTS
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Good collection of papers
 [[project](https://github.com/coqui-ai/TTS-papers)].
 
@@ -1918,7 +1918,7 @@ See ```Hugging Face Transformers```[[local](#hugging-face-transformers)].
 
 ## Hugging Face Transformers
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Transformers
 [[project](https://huggingface.co/transformers)]
 [[code](https://github.com/huggingface/transformers)] - 
@@ -1929,7 +1929,7 @@ Hugging Face Course [[course](https://huggingface.co/course)].
 
 *TODO*: add projects.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 speech-to-text topic on github
 [[code](https://github.com/topics/speech-to-text)] - 
 a lot of good projects.
@@ -2064,12 +2064,12 @@ Not only, but mostly for human, so for now it is here.
 
 ### Clothes
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Clothes-3D
 [[project](https://github.com/lzhbrian/Clothes-3D)]. 
 *TODO*: add papers from here.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 awesome clothed people
 [[project](https://github.com/weihaox/awesome-clothed-human)].
 *TODO*: add papers from here.
@@ -2142,7 +2142,7 @@ ClothCap: Seamless 4D Clothing Capture and Retargeting (SIGGRAPH 2017)
 
 #### Virtual Try-on (VTON)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 A Curated List of Awesome Virtual Try-on (VTON) Research
 [[project](https://github.com/minar09/awesome-virtual-try-on)].
 *TODO*: add papers from here.
@@ -2153,7 +2153,7 @@ A Curated List of Awesome Virtual Try-on (VTON) Research
 
 *TODO*: are all papers works only with images, or may be wirth video (and use temporal information), or 3D scans? Should I structure?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Awesome 3D Body Papers
 [[project](https://github.com/3DFaceBody/awesome-3dbody-papers)].
 *TODO*: add papers from here.
@@ -2212,7 +2212,7 @@ Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Imag
 
 #### Hand Pose Estimation
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 Awesome Hand Pose Estimation
 [[project](https://github.com/xinghaochen/awesome-hand-pose-estimation)].
 *TODO*: add papers from here.
@@ -2485,7 +2485,7 @@ CoMA: Generating 3D faces using Convolutional Mesh Autoencoders ((ECCV) 2018)
 
 ## View Synthesis
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left/>
+<!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/-->
 New-View-Synthesis
 [[project](https://github.com/visonpon/New-View-Synthesis)].
 *TODO*: add papers from here.

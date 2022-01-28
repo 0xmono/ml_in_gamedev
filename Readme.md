@@ -136,6 +136,7 @@
             - [Physics Environments](#physics-environments)
                 - [MuJoCo Physics](#mujoco-physics)
         - [Libs](#libs)
+        - [Render](#render-1)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2771,6 +2772,11 @@ Imaginaire
 [[code](https://github.com/NVlabs/imaginaire)]
 [[blog](https://analyticsindiamag.com/guide-to-nvidia-imaginaire-gan-library-in-python)] - 
 pytorch library that contains optimized implementation of several image and video synthesis methods developed at NVIDIA.
+
+### Render
+
+DIRT: a fast Differentiable Renderer for TensorFlow
+[[code](https://github.com/pmh47/dirt)].
 ## Other
 
 microRTS

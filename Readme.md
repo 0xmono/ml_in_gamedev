@@ -2521,6 +2521,14 @@ See ```Radiance Fields```[[local](#radiance-fields)].
 
 ## Radiance Fields
 
+NeRF and related projects.
+
+Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+[[project](https://nvlabs.github.io/instant-ngp)]
+[[code](https://github.com/NVlabs/instant-ngp)]
+[[paper](https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf)]
+[[video](https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.mp4)].
+
 BARF: Bundle-Adjusting Neural Radiance Fields (ICCV 2021)
 [[project](https://chenhsuanlin.bitbucket.io/bundle-adjusting-NeRF)]
 [[code](https://github.com/chenhsuanlin/bundle-adjusting-NeRF)]
@@ -2534,6 +2542,35 @@ GNeRF: GAN-based Neural Radiance Field without Posed Camera (ICCV 2021)
 [[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Meng_GNeRF_GAN-Based_Neural_Radiance_Field_Without_Posed_Camera_ICCV_2021_paper.pdf)]
 [[arxiv](https://arxiv.org/abs/2103.15606)]
 [[video](https://www.youtube.com/watch?v=r_Zf84kjNTM)].
+
+NeRD: Neural Reflectance Decomposition from Image Collections (ICCV 2021)
+[[project](https://markboss.me/publication/2021-nerd)]
+[[code](https://github.com/cgtuebingen/NeRD-Neural-Reflectance-Decomposition)]
+[[data](https://github.com/cgtuebingen/NeRD-Neural-Reflectance-Decomposition/blob/master/download_datasets.py)]
+[[arxiv](https://arxiv.org/abs/2012.03918)]
+[[video](https://www.youtube.com/watch?v=JL-qMTXw9VU)]
+[[video](https://www.youtube.com/watch?v=IM9OgMwHNTI)].
+
+Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis (ICCV 2021)
+[[project](https://ajayj.com/dietnerf)]
+[[code](https://github.com/ajayjain/DietNeRF)]
+[[arxiv](https://arxiv.org/abs/2104.00677)]
+[[video](https://www.youtube.com/watch?v=RF_3hsNizqw)]
+[[video](https://www.youtube.com/watch?v=Isq2b3HnOoA)] - 
+based on ```pixelNeRF: Neural Radiance Fields from One or Few Images```[[local](#pixelNeRF)].
+
+Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields (ICCV 2021)
+[[project](https://jonbarron.info/mipnerf)]
+[[code](https://github.com/google/mipnerf)]
+[[arxiv](https://arxiv.org/abs/2103.13415)]
+[[video](https://www.youtube.com/watch?v=EpH175PY1A0)].
+
+Real-time Neural Radiance Caching for Path Tracing
+[[project](https://research.nvidia.com/publication/2021-06_Real-time-Neural-Radiance)]
+[[code](https://github.com/nvlabs/tiny-cuda-nn)]
+[[demo](https://tom94.net/data/publications/mueller21realtime/interactive-viewer)]
+[[paper](https://d1qx31qr3h6wln.cloudfront.net/publications/paper_4.pdf)]
+[[arxiv](https://arxiv.org/abs/2106.12372)].
 
 Baking Neural Radiance Fields for Real-Time View Synthesis
 [[project](https://phog.github.io/snerg)]
@@ -2573,6 +2610,14 @@ Unofficial implementation of NeRF (Neural Radiance Fields) using pytorch
 [[code](https://github.com/kwea123/nerf_pl)] - 
 including ```NeRF in the Wild```[[local](#NerfInTheWild)].
 
+<a name="pixelNeRF"></a>
+pixelNeRF: Neural Radiance Fields from One or Few Images
+[[project](https://alexyu.net/pixelnerf)]
+[[code](https://github.com/sxyu/pixel-nerf)]
+[[data](https://drive.google.com/drive/folders/1PsT3uKwqHHD2bEEHkIXB99AlIjtmrEiR)]
+[[arxiv](https://arxiv.org/abs/2012.02190)]
+[[video](https://www.youtube.com/watch?v=voebZx7f32g)].
+
 PlenOctrees for Real-time Rendering of Neural Radiance Fields (ICCV 2021)
 [[project](https://alexyu.net/plenoctrees)]
 [[code](https://github.com/sxyu/plenoctree)]
@@ -2580,7 +2625,14 @@ PlenOctrees for Real-time Rendering of Neural Radiance Fields (ICCV 2021)
 [[arxiv](https://arxiv.org/abs/2103.14024)]
 [[video](https://www.youtube.com/watch?v=obrmH1T5mfI)].
 
-NeRF++: Analyzing and Improving Neural Radiance Fields
+Neural Sparse Voxel Fields (NeurIPS 2020)
+[[project](https://lingjie0206.github.io/papers/NSVF)]
+[[code](https://github.com/facebookresearch/NSVF)]
+[[arxiv](https://arxiv.org/abs/2007.11571)]
+[[supplement](https://www.dropbox.com/s/sqsnl07fpfhwge2/nips_talk_10m_V3.pptm?dl=0)]
+[[video](https://www.youtube.com/watch?v=RFqPwH7QFEI)].
+
+NeRF++: Analyzing and Improving Neural Radiance Fields (2020)
 [[code](https://github.com/Kai-46/nerfplusplus)]
 [[arxiv](https://arxiv.org/abs/2010.07492)]
 [[supplement](https://slides.games-cn.org/pdf/Games2021187KaiZhang.pdf)]
@@ -2590,10 +2642,12 @@ NeRF++: Analyzing and Improving Neural Radiance Fields
 NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (ECCV 2020)
 [[project](https://www.matthewtancik.com/nerf)]
 [[code](https://github.com/bmild/nerf)]
+[[code (unafficial)](https://github.com/facebookresearch/NSVF)]
 [[arxiv](https://arxiv.org/abs/2003.08934)]
 [[video](https://www.youtube.com/watch?v=JuH79E8rdKc)].
 Explaination 
-[[video](https://www.youtube.com/watch?v=CRlN-cYFxTk)].
+[[video](https://www.youtube.com/watch?v=CRlN-cYFxTk)]
+[[video](https://www.youtube.com/watch?v=dPWLybp4LL0)].
 
 NeRF-pytorch
 [[code](https://github.com/yenchenlin/nerf-pytorch)] - 
@@ -2606,7 +2660,10 @@ a JAX implementation of ```NeRF```[[local](#NeRFOrig)].
 
 Understanding and Extending Neural Radiance Fields
 [[blog](https://www.haikutechcenter.com/2021/06/understanding-and-extending-neural.html)]
-[[video](https://www.youtube.com/watch?v=HfJpQCBTqZs)].
+[[video](https://www.youtube.com/watch?v=HfJpQCBTqZs)]
+[[video](https://www.youtube.com/watch?v=nRyOzHpcr4Q)].
+
+See ```View Synthesis```[[local](#view-synthesis)].
 
 ## Siren
 

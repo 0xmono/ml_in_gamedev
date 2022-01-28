@@ -139,6 +139,7 @@
         - [Render](#render-1)
         - [Deployment](#deployment)
         - [Optimization](#optimization)
+    - [Contrastive Representation Learning](#contrastive-representation-learning)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2791,6 +2792,14 @@ open-source deep learning model deployment toolset.
 MMRazor
 [[code](https://github.com/open-mmlab/mmrazor)] - 
 model compression toolkit for model slimming and AutoML.
+
+## Contrastive Representation Learning
+
+Contrastive Learning of Generalized Game Representations
+[[code](https://github.com/ChintanTrivedi/contrastive-game-representations)]
+[[data](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE)]
+[[arxiv](https://arxiv.org/abs/2106.10060)].
+
 ## Other
 
 microRTS

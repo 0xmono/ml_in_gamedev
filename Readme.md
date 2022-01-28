@@ -140,6 +140,7 @@
         - [Deployment](#deployment)
         - [Optimization](#optimization)
     - [Contrastive Representation Learning](#contrastive-representation-learning)
+    - [Other](#other-1)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2814,6 +2815,11 @@ Griddly
 [[project](https://griddly.readthedocs.io)]
 [[code](https://github.com/SoftwareImpacts/SIMPAC-2021-6)] - 
 cross platform grid-based research environment that is designed to be able to reproduce grid-world style games.
+
+MMSelfSup
+[[code](https://github.com/open-mmlab/mmselfsup)] - 
+open source self-supervised representation learning toolbox based on PyTorch.
+*TODO*: add pertinent models from MMSelfSup here explicitly.
 
 ### Vision transformer
 

@@ -160,9 +160,9 @@ If you found an error or have something to add - feel free to create a pull requ
 <summary>Some designations in this document</summary>
 
 <!--img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg" alt="container" title="Contains references to multiple projects" width="30" height="30" img align="left"/--> - 
-this image will be added to show that some project is a container of multiple references to another projects/software/dataset/books and so on. 
+<!--this image will be added to show that some project is a container of multiple references to another projects/software/dataset/books and so on. 
 Usually it is a page on github, similar to this document, to some extent. 
-See the [full image](https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg).
+See the [full image](https://upload.wikimedia.org/wikipedia/commons/d/df/Container_01_KMJ.jpg).-->
 
 Typical names for web links in this document:
 

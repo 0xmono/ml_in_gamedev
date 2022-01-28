@@ -132,8 +132,9 @@
             - [Unity ML-Agents](#unity-ml-agents)
                 - [AnimalAI](#animalai)
             - [Unreal Engine](#unreal-engine)
-        - [Physics](#physics-1)
-    - [Other](#other-2)
+                - [Contests Environments](#contests-environments)
+            - [Physics Environments](#physics-environments)
+                - [MuJoCo Physics](#mujoco-physics)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2705,6 +2706,8 @@ First Order Motion Model for Image Animation
 
 ### Environments
 
+*Possible application*: bots training.
+
 OpenAI Gym
 [[project](https://gym.openai.com)]
 [[code](https://github.com/openai/gym)].
@@ -2716,7 +2719,7 @@ See ```DeepMind Environments```[[local](#deepmind-environments)].
 Multiagent emergence environments
 [[code](https://github.com/openai/multi-agent-emergence-environments)].
 
-Worldgen: Randomized MuJoCo environments
+Worldgen: Randomized MuJoCo [[local](#mujoco-physics)] environments
 [[code](https://github.com/openai/mujoco-worldgen)].
 
 Competitive Multi-Agent Environments
@@ -2726,6 +2729,10 @@ Competitive Multi-Agent Environments
 
 Unity ML-Agents Toolkit
 [[code](https://github.com/Unity-Technologies/ml-agents)].
+
+How to generate game character behaviors using AI and ML (Unite Copenhagen 2019)
+[[supplement](https://www.slideshare.net/unity3d/how-to-generate-game-character-behaviors-using-ai-and-ml-unite-copenhagen)]
+[[video](https://www.youtube.com/watch?v=2M3ytOo7LQQ)].
 
 ##### AnimalAI
 
@@ -2741,7 +2748,17 @@ repo for version 2.0 and earlier.
 MindMaker AI Plugin for Unreal Engine 4 & 5
 [[code](https://github.com/krumiaa/MindMaker)].
 
-### Physics
+##### Contests Environments
+
+Google Research Football
+[[code](https://github.com/google-research/football)]
+[[arxiv](https://arxiv.org/abs/1907.11180)]. 
+Example of agent 
+[[code](https://github.com/ChintanTrivedi/rl-bot-football)].
+
+#### Physics Environments
+
+##### MuJoCo Physics
 
 MuJoCo Physics
 [[code](https://github.com/deepmind/mujoco)].

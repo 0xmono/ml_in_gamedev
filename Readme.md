@@ -125,6 +125,7 @@
     - [View Synthesis](#view-synthesis)
     - [Radiance Fields](#radiance-fields)
     - [Siren](#siren)
+    - [Image Animation](#image-animation)
     - [Tools](#tools)
         - [Environments](#environments)
             - [OpenAI Environments](#openai-environments)
@@ -2689,6 +2690,16 @@ SIREN: Implicit Neural Representations with Periodic Activation Functions (Paper
 
 CSC2547 SIREN: Implicit Neural Representations with Periodic Activation Functions
 [[video](https://www.youtube.com/watch?v=sM2QtUqfoXY)].
+
+## Image Animation
+
+First Order Motion Model for Image Animation
+[[project](https://aliaksandrsiarohin.github.io/first-order-model-website)]
+[[code](https://github.com/AliaksandrSiarohin/first-order-model)]
+[[demo](https://colab.research.google.com/github/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb#scrollTo=UCMFMJV7K-ag)]
+[[paper](https://papers.nips.cc/paper/2019/file/31c0b36aef265d9221af80872ceb62f9-Paper.pdf)]
+[[supplement](https://papers.nips.cc/paper/2019/hash/31c0b36aef265d9221af80872ceb62f9-Abstract.html)]
+[[video](https://www.youtube.com/watch?v=u-0cQ-grXBQ)].
 
 ## Tools
 

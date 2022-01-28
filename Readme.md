@@ -135,6 +135,7 @@
                 - [Contests Environments](#contests-environments)
             - [Physics Environments](#physics-environments)
                 - [MuJoCo Physics](#mujoco-physics)
+        - [Libs](#libs)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2763,6 +2764,13 @@ Example of agent
 MuJoCo Physics
 [[code](https://github.com/deepmind/mujoco)].
 
+### Libs
+
+<a name="Imaginaire"></a>
+Imaginaire
+[[code](https://github.com/NVlabs/imaginaire)]
+[[blog](https://analyticsindiamag.com/guide-to-nvidia-imaginaire-gan-library-in-python)] - 
+pytorch library that contains optimized implementation of several image and video synthesis methods developed at NVIDIA.
 ## Other
 
 microRTS

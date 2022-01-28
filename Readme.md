@@ -138,6 +138,7 @@
         - [Libs](#libs)
         - [Render](#render-1)
         - [Deployment](#deployment)
+        - [Optimization](#optimization)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2784,6 +2785,12 @@ DIRT: a fast Differentiable Renderer for TensorFlow
 MMDeploy
 [[code](https://github.com/open-mmlab/mmdeploy)] - 
 open-source deep learning model deployment toolset.
+
+### Optimization
+
+MMRazor
+[[code](https://github.com/open-mmlab/mmrazor)] - 
+model compression toolkit for model slimming and AutoML.
 ## Other
 
 microRTS

@@ -2845,3 +2845,9 @@ Transformers in computer vision: ViT architectures, tips, tricks and improvement
 
 How the Vision Transformer (ViT) works in 10 minutes: an image is worth 16x16 words
 [[blog](https://theaisummer.com/transformers-computer-vision)].
+
+
+
+<!-- Moved here because this links can brake markdown synax highlighting ¯\_(ツ)_/¯ -->
+[Audio- and Gaze-driven Facial Animation of Codec Avatars]: https://openaccess.thecvf.com/content/WACV2021/papers/Richard_Audio-_and_Gaze-Driven_Facial_Animation_of_Codec_Avatars_WACV_2021_paper.pdf
+[Control Strategies for Physically Simulated Characters Performing Two-player Competitive Sports]: https://scontent-waw1-1.xx.fbcdn.net/v/t39.8562-6/222612975_4146618745406822_3372753682415377041_n.pdf?_nc_cat=110&ccb=1-5&_nc_sid=ae5e01&_nc_ohc=EicvCXCwkXAAX8ZvKP-&_nc_ht=scontent-waw1-1.xx&oh=00_AT-TX726CBWbKukyW77Fc8HKPQdJcb5Kw3dwMvVKCrOFzg&oe=61E496C5

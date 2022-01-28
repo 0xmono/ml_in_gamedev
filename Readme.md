@@ -137,6 +137,7 @@
                 - [MuJoCo Physics](#mujoco-physics)
         - [Libs](#libs)
         - [Render](#render-1)
+        - [Deployment](#deployment)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -2777,6 +2778,12 @@ pytorch library that contains optimized implementation of several image and vide
 
 DIRT: a fast Differentiable Renderer for TensorFlow
 [[code](https://github.com/pmh47/dirt)].
+
+### Deployment
+
+MMDeploy
+[[code](https://github.com/open-mmlab/mmdeploy)] - 
+open-source deep learning model deployment toolset.
 ## Other
 
 microRTS

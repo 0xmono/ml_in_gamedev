@@ -32,6 +32,7 @@
         - [Controls](#controls)
             - [Pose](#pose)
             - [Voice](#voice)
+            - [Other](#other)
         - [User-generated content](#user-generated-content)
             - [Avatars](#avatars)
 - [Development](#development)
@@ -51,7 +52,7 @@
                     - [CLIP](#clip)
                     - [Deep Daze](#deep-daze)
                     - [Diffusion Models](#diffusion-models)
-                    - [Other](#other)
+                    - [Other](#other-1)
                 - [Bitmaps](#bitmaps)
             - [3D Models](#3d-models)
                 - [Reconstruction From Images and Video](#reconstruction-from-images-and-video)
@@ -140,7 +141,7 @@
         - [Deployment](#deployment)
         - [Optimization](#optimization)
     - [Contrastive Representation Learning](#contrastive-representation-learning)
-    - [Other](#other-1)
+    - [Other](#other-2)
         - [Vision transformer](#vision-transformer)
 
 <!-- /MarkdownTOC -->
@@ -735,6 +736,18 @@ Playing Mortal Kombat with TensorFlow.js. Transfer learning and data augmentatio
 #### Voice
 
 See ```Speech Recognition``` [[local](#speech-recognition)].
+
+DeepGamingAI_FIFAVA (2019)
+[[code](https://github.com/ChintanTrivedi/DeepGamingAI_FIFAVA)]
+[[blog](https://towardsdatascience.com/creating-voice-assistant-for-games-tutorial-for-fifa-71cfbe428bd1)]
+[[video](https://www.youtube.com/watch?v=QhDnMHmoadQ)].
+
+#### Other
+
+DeepGamingAI_FPS (2018)
+[[code](https://github.com/ChintanTrivedi/DeepGamingAI_FPS)]
+[[video](https://www.youtube.com/watch?v=mUMbgdQ8mOM)] - 
+FPS game controller that uses webcam and deep learning to play games.
 
 ### User-generated content
 
